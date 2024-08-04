@@ -1,0 +1,3301 @@
+0.0 3.78 welcome back aliens my name is Evan
+1.92 4.5 Reddy and in this course we are going to
+3.78 4.56 learn about Kit now when you build an
+6.42 3.78 application apart from learning the
+8.34 4.02 language and the tools to build the
+10.2 4.2 application there are other things which
+12.36 4.919 you have to learn about and one of it is
+14.4 4.32 get so that means irrespective of what
+17.279 4.741 kind of application you're building it
+18.72 6.36 can be mobile web Enterprise you will be
+22.02 5.28 using this tool for two reasons one for
+25.08 4.56 the Version Control and second for the
+27.3 4.26 collaboration and then this tool is
+29.64 4.32 actually easy it's just that the concept
+31.56 4.44 might be new and most of the thing which
+33.96 3.42 we do is through commands and of course
+36.0 3.78 you can do most of these things with the
+37.38 5.4 help of GUI because most of the ide's
+39.78 5.04 provide you with this tool but then when
+42.78 4.08 you work with the command line you have
+44.82 3.419 more power to change stuff so in this
+46.86 2.94 course we are going to learn different
+48.239 4.14 things first of all we will understand
+49.8 4.439 what is gate how do we do the setup how
+52.379 3.481 do you create your own repository how do
+54.239 3.3 you create account on GitHub how to
+55.86 3.539 install the project commit the project
+57.539 3.36 and how do you push your code on the
+59.399 3.601 GitHub repository tree how do you create
+60.899 3.66 branches and we'll be doing that
+63.0 3.659 practically so you will enjoy this
+64.559 4.321 course and don't worry the course is
+66.659 4.201 designed for the beginners even if you
+68.88 3.36 have no idea what git is we will take
+70.86 3.06 care of so I hope you will enjoy this
+72.24 3.96 course and also make sure don't just
+73.92 4.08 watch the video practice The Thing by
+76.2 3.9 yourself so whatever I'm doing parallel
+78.0 3.6 you can do it on your machine and let me
+80.1 4.8 know how it feels or if you have any
+81.6 6.72 issues in the comment section git is a
+84.9 4.68 distributed version control system now
+88.32 3.72 the problem is if you want to understand
+89.58 5.16 get you have to first understand what do
+92.04 4.079 you mean by Version Control right and
+94.74 3.0 then we can discuss about Version
+96.119 4.021 Control System then we can discuss about
+97.74 5.1 why it is called distributed and then
+100.14 5.4 git will make much more sense so let's
+102.84 4.319 talk about Version Control see the thing
+105.54 3.3 is when you make a project of course it
+107.159 4.32 can be any project it can be a software
+108.84 5.16 project or it can be uh writing a book
+111.479 4.021 or making videos it's all about a
+114.0 3.78 project right and when you make a
+115.5 3.96 project the way you work is you create
+117.78 3.36 different versions of it right okay so
+119.46 4.199 if you don't want to say version let's
+121.14 3.9 say you make multiple updates so when I
+123.659 3.661 start writing a book I will write
+125.04 4.02 something and then I will edit the same
+127.32 3.6 file or maybe I want to go back to my
+129.06 3.66 previous file so let's say if I'm
+130.92 3.3 writing chapter 1 I will complete that
+132.72 4.08 chapter one and then I will go for
+134.22 5.22 chapter two chapter three now at every
+136.8 4.68 chapter and I will just try to save it
+139.44 4.08 right and then on chapter two I will try
+141.48 4.619 to save a file on chapter three I want
+143.52 4.68 to save a file or maybe while writing
+146.099 3.72 this chapter in between I will do the
+148.2 3.3 save right so and saving is very
+149.819 4.92 important right otherwise if your laptop
+151.5 7.44 crashes you will lose all the data so as
+154.739 5.701 a writer we normally say Ctrl s not once
+158.94 4.56 multiple times just to be on the safe
+160.44 5.76 side the important part here is we want
+163.5 4.2 to make the copies of it now there are
+166.2 4.319 multiple ways of doing that what you can
+167.7 4.74 do is you can save the same file the
+170.519 4.021 thing is if you say the same file you
+172.44 4.019 will lose the previous file right or
+174.54 4.979 what you can do is you can create a new
+176.459 3.841 file so every new update will be a new
+179.519 2.821 file
+180.3 3.299 and as a software developer we used to
+182.34 3.479 do that in my college days I remember
+183.599 4.86 when we used to create project every
+185.819 5.101 time we add a new feature we used to
+188.459 4.081 create a new folder and let me know if
+190.92 3.42 you have done this or maybe you can just
+192.54 3.54 give a smile if you have done this we
+194.34 3.84 create a project and then we give a name
+196.08 4.26 to it let's say the project is for a
+198.18 5.339 quiz application so you will say quiz
+200.34 5.399 app and then if you think this is now we
+203.519 6.241 have added few features we can say quiz
+205.739 6.481 app one quiz app two quiz app3 of course
+209.76 4.44 it will have a new updates new features
+212.22 4.2 in that particular new folder right and
+214.2 5.34 then the moment you feel that project is
+216.42 6.48 complete you say quiz app final then you
+219.54 6.0 say quiz app final final because maybe
+222.9 4.619 you want to make some final changes and
+225.54 4.86 then you realize oh there's a bug then
+227.519 5.041 you say quiz app final final Final very
+230.4 4.32 final okay so this is the type of folder
+232.56 4.319 we used to create the thing is why do we
+234.72 3.96 do this it's because what if you want to
+236.879 4.14 go back to the previous version
+238.68 4.5 what if you have created a project and
+241.019 4.321 then it's working and now you added new
+243.18 4.139 features and then you you thought it is
+245.34 4.319 working but it's not there are some bugs
+247.319 4.92 you may want to go back to the previous
+249.659 5.16 version right now having that version
+252.239 4.74 called or having that power or going
+254.819 4.561 back to any version that is called
+256.979 4.561 Version Control and to achieve this we
+259.38 3.96 need to use some software so write some
+261.54 4.68 system and that system is called
+263.34 4.62 aversion control system so example if
+266.22 3.84 you are building a project you will be
+267.96 3.9 saving that file multiple times and then
+270.06 4.38 you will not replace the older project
+271.86 4.559 the older project will be there right so
+274.44 3.84 let's say you have a software with X
+276.419 3.481 number of features so you got the first
+278.28 3.12 two feature in the first version then
+279.9 3.78 you got the third feature on the second
+281.4 4.859 version and at any given point you can
+283.68 4.5 go back to the previous version also
+286.259 3.66 what if you are not alone in the project
+288.18 3.54 you have multiple people working in the
+289.919 4.141 same project how do you collaborate
+291.72 4.199 that's also important right so you will
+294.06 3.359 get those features with the help of
+295.919 3.361 Version Control and as I mentioned
+297.419 4.321 before you need a system so which we
+299.28 3.54 call it as a version control system so
+301.74 3.0 when you talk about Version Control
+302.82 3.659 System we can categorize into three
+304.74 3.6 parts here the first one is a local
+306.479 4.561 version controls which simply means that
+308.34 5.16 as a developer or as a Creator if I
+311.04 4.26 write software so if I write a book if I
+313.5 3.479 write something and if I want to save in
+315.3 4.44 my own machine with different versions
+316.979 4.681 of course that is local copy right and
+319.74 3.239 in my own particular machine I am
+321.66 4.14 creating different versions of it maybe
+322.979 4.981 having a folder inside a folder then
+325.8 3.78 having different folders of it or maybe
+327.96 3.36 I can just create a database where I
+329.58 3.48 will save all these files again that's
+331.32 3.48 my choice or that depends upon the
+333.06 3.3 Version Control System but the thing is
+334.8 4.619 everything is happening on my machine
+336.36 4.98 the problem here is what if I want to
+339.419 3.421 collaborate with other people I have
+341.34 3.06 let's say five people in the team and
+342.84 3.9 they we all want to work on the same
+344.4 5.16 project how will we do that
+346.74 5.16 and also what if I'm relying on my
+349.56 4.44 machine and then one day my machine says
+351.9 4.5 okay I'm done I'm not going to start
+354.0 4.44 again how will you get your projects and
+356.4 4.2 that's where you can't simply rely on
+358.44 3.8 local copy and that's when we have one
+360.6 4.319 more option which is called
+362.24 5.98 cvcs so VCS is version control system
+364.919 5.34 cvcs is your centralized version control
+368.22 3.24 system now in this case what you do is
+370.259 2.821 let's say you have five people in the
+371.46 3.6 network or five people want to work on
+373.08 4.2 the same project so what you will do is
+375.06 4.74 you will use a central repository not
+377.28 4.38 the local one but the remote one so all
+379.8 4.32 these machines which you are working on
+381.66 4.68 in different locations in the world you
+384.12 4.26 will be having a centralized version
+386.34 3.84 control system now at this point every
+388.38 3.84 time you want to make a change you have
+390.18 3.48 to get the copy from the centralized
+392.22 4.08 system make the changes in your machine
+393.66 4.379 and then you have to save it on the
+396.3 3.6 centralized version control system which
+398.039 3.301 is cbcs now the problem with this is
+399.9 3.18 okay first of all let's talk about the
+401.34 3.84 advantage the advantage is if you're
+403.08 4.38 working in a file of a group everyone
+405.18 3.78 have access to it so so they will know
+407.46 3.0 what you're working on so let's say you
+408.96 3.0 have done something and then when you
+410.46 3.6 say save now basically since we're
+411.96 4.019 talking about get let's use the word
+414.06 3.54 which we're using git call commit so
+415.979 3.84 let's say when you commit something to
+417.6 4.02 the centralized server now at this point
+419.819 3.901 the other people will have a recent code
+421.62 3.6 they know what you're doing right but
+423.72 3.24 also there's a problem the problem is
+425.22 3.599 everything is stored on a central system
+426.96 3.78 right what if the central server says
+428.819 5.521 I'm done I'm not going to start again
+430.74 4.92 your data is gone now right so that's
+434.34 3.54 the problem with this centralized
+435.66 4.5 version control system now that's where
+437.88 4.5 we have to look for an alternative where
+440.16 4.379 you should be able to have a copy on
+442.38 3.659 your machine as well and not just the
+444.539 3.06 current version you should have the
+446.039 3.481 history as well because in the
+447.599 3.901 centralized version even if your server
+449.52 4.079 goes down at least you have a local copy
+451.5 3.96 of the current version yes you have it
+453.599 5.04 but we don't want just current version
+455.46 4.92 what we want is the history right and
+458.639 3.84 that's where you can use something
+460.38 4.5 called a distributed Version Control
+462.479 3.84 System where you will have a local copy
+464.88 3.719 but not just the current version you
+466.319 3.78 will have the the entire permit history
+468.599 3.121 so let's say you have created version
+470.099 3.421 one version two version three everything
+471.72 4.44 will be present in your local machine as
+473.52 4.86 well and you can you can collaborate
+476.16 4.08 with the other developers or in your
+478.38 4.379 with your colleagues basically so we
+480.24 4.019 have done with the first step of what is
+482.759 4.44 get by understanding something called
+484.259 4.621 version control system now the more
+487.199 4.681 theoretical concept you know it will be
+488.88 6.0 easier for you to work on the on the git
+491.88 5.58 software right so basically git is are
+494.88 3.78 distributed which means you will have a
+497.46 2.82 local copy of course you can have a
+498.66 3.24 remote copy as well there are a lot of
+500.28 3.539 options available example let's say if
+501.9 5.22 you talk about GitHub gitlab bitbucket
+503.819 5.041 all this are your remote repositories so
+507.12 3.359 you will have a copy there plus you will
+508.86 3.599 have a copy on your local Mission as
+510.479 4.5 well so let's say someday if you want to
+512.459 4.26 work in a long flight and you don't have
+514.979 3.961 internet access you can still work on
+516.719 4.921 your project because you have everything
+518.94 5.64 in your own machine so let's understand
+521.64 4.319 the history of git now it is interesting
+524.58 4.02 that's why we have this special video
+525.959 4.56 for it the thing is if we talk about any
+528.6 4.2 open source project so what happens in
+530.519 4.021 open source project is we have multiple
+532.8 3.659 people working on the same project but
+534.54 3.6 you will say hey that also happens with
+536.459 3.361 the normal projects right the thing is
+538.14 3.06 in normal projects we have limited set
+539.82 3.3 of people let's say if you are working
+541.2 4.44 for a company and you are building a
+543.12 4.38 project you have let's say a set of
+545.64 3.78 people in a team they will be working on
+547.5 4.08 it and then you trust everyone because
+549.42 4.26 they are a part of a project in the open
+551.58 4.439 source project anyone can contribute
+553.68 4.32 let's say one day I decided to be a part
+556.019 3.241 of one open source project of course it
+558.0 3.779 will take some time for me to understand
+559.26 4.44 the project and then if I feel hey you
+561.779 3.541 know everything is good in this buildup
+563.7 3.72 project so let's say it's any OS let's
+565.32 4.079 say we have this own telescope OS and
+567.42 3.96 then one day I want to contribute to
+569.399 3.541 that particular OS I want to add a new
+571.38 4.26 feature of let's say a Bluetooth
+572.94 5.399 connectivity just for an example I can
+575.64 5.4 write my own module and add that in the
+578.339 5.581 OS in my machine but if I want the
+581.04 5.22 entire world to use it I have to send
+583.92 4.5 them the new code right but then how
+586.26 3.96 this thing will work how multiple people
+588.42 4.08 in the world can contribute to one
+590.22 4.32 project in the earlier days we used to
+592.5 4.44 do something called archive files or
+594.54 3.96 sending the patches right now this is
+596.94 3.12 the same thing happen with Linux as well
+598.5 4.14 now if you know Linux kernel very famous
+600.06 4.38 One the founder is line of starboard and
+602.64 3.3 he is very particular about how Linux
+604.44 4.38 should work what are the features we
+605.94 6.3 should have now initial days when 1991
+608.82 5.22 to 2002 it was more about uh if you want
+612.24 4.62 to provide the features you can send
+614.04 4.979 patches or you can use archive files but
+616.86 4.26 then in 2002 they started using some
+619.019 4.021 some proprietary tool called bitkeeper
+621.12 3.779 now bitkeeper I think was free at that
+623.04 3.78 point and then they started using
+624.899 4.44 bitkeepers so that they can get the
+626.82 4.68 contribution from the world easily now
+629.339 4.261 they don't they don't have to go through
+631.5 3.779 a manual process of doing that so they
+633.6 3.72 can simply use bitkeeper and they can
+635.279 3.961 send their code and then they can do the
+637.32 4.68 merging as well now the problem is at
+639.24 5.039 one point the policy of beekeeper
+642.0 4.019 changed and they started charging now
+644.279 3.541 the Linux Community was doing it for
+646.019 4.081 free and then the entire world was using
+647.82 4.139 Linux for free so they thought it's a
+650.1 4.979 good time now to move away from
+651.959 5.581 bitkeeper and that's where git was
+655.079 4.141 formed of course they tried to make it
+657.54 3.299 very different from bitkeeper so
+659.22 4.2 bitkeeper was working a different way
+660.839 3.901 and git worked in a different way again
+663.42 3.479 what is that different way that will
+664.74 5.339 understand once we start the actual
+666.899 5.461 implementation but that's how in 2005
+670.079 4.081 get started it's not like someone
+672.36 3.419 thought hey let's do this version
+674.16 4.08 control system no they were using
+675.779 4.5 something else just that because of some
+678.24 4.26 issue between the bitkeeper and the
+680.279 4.201 community they moved away from it and
+682.5 3.959 they started using git as I mentioned
+684.48 3.479 before git is different from all
+686.459 3.661 different version Control Systems right
+687.959 4.32 even different from bitkeeper and since
+690.12 3.839 it is different it has given some
+692.279 4.441 amazing features it is very simple to
+693.959 4.861 use it is fast it also allows you
+696.72 4.5 something called branching again once we
+698.82 3.9 move towards the advanced part of Kit
+701.22 3.239 we'll understand what branching means
+702.72 4.2 and it's a fun concept to learn and also
+704.459 6.06 to implement and it is fully distributed
+706.92 5.34 which makes git very famous and I know
+710.519 4.26 we have done enough build up and the
+712.26 4.199 question is how do we use git we want to
+714.779 3.0 collaborate and we want to work with
+716.459 3.721 gate so that you can collaborate with
+717.779 3.961 different people and we can build a
+720.18 3.42 project it doesn't matter is it a
+721.74 4.14 proprietary project you're working in a
+723.6 4.26 company or open source how do we use it
+725.88 4.74 and that will understand in the upcoming
+727.86 4.14 videos now it's time to install git of
+730.62 3.0 course right we want to work with those
+732.0 3.6 commands and as I mentioned before if
+733.62 4.8 you want to master gate or if you want
+735.6 4.919 to use the features of gate command line
+738.42 4.38 or basically commands are the way to go
+740.519 4.44 now how do you know that in your machine
+742.8 4.8 you have Kit now if you are using Mac
+744.959 6.241 basically in Mac if you have installed
+747.6 5.94 xcode you will get git by default but if
+751.2 4.379 you are using Windows you will not get
+753.54 3.66 that so how do we verify so it's very
+755.579 3.061 easy you just have to use the command
+757.2 5.1 prompt so I will open my command prompt
+758.64 5.699 here and or Powershell so you can what
+762.3 4.08 you can do is you can search for get
+764.339 3.841 version so basically this is the command
+766.38 3.78 which you have to fire and when you say
+768.18 6.0 enter you can say it says the term git
+770.16 5.94 is not recognized as a command okay so
+774.18 3.42 if you want to get git on your machine
+776.1 3.479 if you are using this on command prompt
+777.6 3.78 you will get a different message example
+779.579 5.521 if you do that on command prompt and if
+781.38 4.92 you say Git Version this is the message
+785.1 2.76 you will see so it doesn't matter which
+786.3 4.38 window you are using Powershell or
+787.86 5.039 command prompt uh both works but in both
+790.68 4.2 of the cases we don't have git now how
+792.899 4.321 will you get git it's very simple you
+794.88 4.44 can just go to the website right or you
+797.22 5.1 can just go to Google and search for git
+799.32 4.86 download now this is the website from
+802.32 5.04 where you can download the get the
+804.18 4.8 current version of git is 2.41 so we can
+807.36 4.08 get that one and it will ask you for
+808.98 4.14 which OS you are using now since I'm
+811.44 3.12 using Windows here we can click on
+813.12 3.659 Windows if you're using Mac you can go
+814.56 4.38 for that and as I mentioned before if
+816.779 3.901 you already have xcode installed most of
+818.94 4.019 the time for some reasons you install
+820.68 3.42 xcode even if you don't develop iOS
+822.959 4.141 application
+824.1 5.1 uh so do check if you already have git
+827.1 3.359 by saying git hyphen iPhone version if
+829.2 2.879 you don't have it you can follow the
+830.459 4.44 similar steps you can click on download
+832.079 4.741 there and you will get it for Mac OS for
+834.899 3.06 Linux you have to set the path and that
+836.82 4.5 should be simple
+837.959 5.041 so let's go for Windows here and once
+841.32 3.42 you click on that it will ask you for
+843.0 4.5 which version so basically you can go
+844.74 5.219 for a standard installer which is
+847.5 3.839 suitable for if you have only one
+849.959 3.12 machine but let's say if you want to
+851.339 3.901 move between different machines you can
+853.079 4.021 go for portable one but I prefer to go
+855.24 5.58 for a setup inside the machine and
+857.1 6.12 64-bit because my machine is 64-bit so I
+860.82 4.38 will click on that so it's only 57 MB so
+863.22 3.299 depend upon 58 MB so depend upon when
+865.2 3.72 you're installing it which version you
+866.519 3.961 have you will get that now once you've
+868.92 3.659 got this download it's very easy to do
+870.48 4.08 the setup you will say click so given a
+872.579 3.361 prompt click on yes okay and we don't
+874.56 3.959 have a choice right we have to accept
+875.94 4.259 the agreement uh now this is a place
+878.519 2.76 where it will install git I will send
+880.199 3.661 next
+881.279 4.021 okay it says I already have get in my
+883.86 3.659 machine because I think I already
+885.3 3.779 installed it before but I will say okay
+887.519 3.06 I'll go with that particular folder
+889.079 3.481 that's fine with me
+890.579 4.021 now it also give you something called
+892.56 3.6 get bash now at this point will not be
+894.6 3.38 working with Git bash will be using
+896.16 5.22 normal CMD
+897.98 7.419 and uh anything else looks good click on
+901.38 5.579 next Okay click on next okay so it will
+905.399 3.781 give you certain options you know when
+906.959 4.921 you want to edit something and get which
+909.18 4.86 particular uh IDE which you want to use
+911.88 3.84 or not editor which you want to use now
+914.04 3.239 I will go for default one which is vim
+915.72 3.119 or you can choose whatever you want
+917.279 3.36 maybe let's choose notepad for this
+918.839 4.021 because series I don't want to confuse
+920.639 5.281 you with how to use Vim commands so
+922.86 4.979 let's use notepad here and click on next
+925.92 3.659 now this is this is something
+927.839 3.541 important to remember
+929.579 3.06 now when you work with the First Command
+931.38 3.42 of git
+932.639 3.781 it creates something called branches
+934.8 3.479 okay so we have this amazing feature of
+936.42 4.38 branch in get
+938.279 4.62 Now by default you will get one branch
+940.8 5.039 which you work with and they call Master
+942.899 5.461 Branch now when git came into existence
+945.839 5.281 way back the name was Master but
+948.36 5.58 recently again doesn't it doesn't look
+951.12 6.18 good right Master Slave so they went for
+953.94 4.98 an a normal word which you can use so we
+957.3 4.5 got main so if you can see we have an
+958.92 4.919 option of main here so I will go for let
+961.8 3.839 get decide and when we are creating the
+963.839 3.36 project we'll make it main will not be
+965.639 3.361 using Master otherwise you can change it
+967.199 3.621 from here as well that perfectly works I
+969.0 3.36 will say let get decide
+970.82 3.519 next
+972.36 4.44 and here you can see I'm going to use
+974.339 5.521 command line not git bash so I will go
+976.8 6.839 with that and click on next
+979.86 6.479 okay I will use open SSH and yeah open
+983.639 4.021 SSL so nothing to change much I will let
+986.339 3.8 you know when you have to change the
+987.66 6.239 basic configuration
+990.139 5.44 fast forward and merge yeah
+993.899 4.761 okay so when you say git pull this is
+995.579 5.341 what you do select I will say okay
+998.66 5.919 and next
+1000.92 5.219 enable system caching required now it
+1004.579 3.481 provides you some experimental features
+1006.139 3.601 will not be checking at this point we'll
+1008.06 3.06 click on install
+1009.74 2.94 okay so it will take some time to
+1011.12 3.54 installation let's wait for it you can
+1012.68 3.36 as you can see it is installed I don't
+1014.66 4.5 want to see release nodes I will click
+1016.04 5.219 on finish and done we got the git setup
+1019.16 3.9 now how do we verify of course when you
+1021.259 4.261 open your command prompt or Powershell
+1023.06 5.1 let's say here if I try to do that once
+1025.52 5.22 again you can see it still says git is
+1028.16 4.32 not a recognized command the thing is
+1030.74 3.719 after installing git you just need to
+1032.48 4.38 restart your command prompt
+1034.459 3.661 and I will again open my Powershell of
+1036.86 4.38 course you can search for Powershell
+1038.12 5.28 from here and you can search for git
+1041.24 5.64 version and you can see we got the Git
+1043.4 5.46 Version so now git is properly installed
+1046.88 4.02 okay now once we got the git
+1048.86 3.42 installation now it's there right it's
+1050.9 2.88 there in your machine but how do you
+1052.28 3.54 make it your own
+1053.78 3.72 every time you do git commit every time
+1055.82 3.84 you want to push something you need to
+1057.5 3.419 have your own identity of course we need
+1059.66 3.84 to know right who is pushing the code
+1060.919 5.281 because in git we have multiple people
+1063.5 4.32 working together on the same project so
+1066.2 3.54 whenever someone pushes the code on the
+1067.82 3.78 server you should know who is doing it
+1069.74 4.02 and that's where you need to have your
+1071.6 4.74 own configuration the way you can check
+1073.76 3.659 that is by saying get config and when
+1076.34 2.699 you say enter
+1077.419 3.901 okay you can see it will give you
+1079.039 3.481 certain things now basically in git
+1081.32 3.78 config there are certain things which
+1082.52 5.76 are to mention at least two things one
+1085.1 5.579 is your name your username and second is
+1088.28 4.139 your email with the same email if you're
+1090.679 3.421 using a public repository it's a git lab
+1092.419 3.781 or GitHub you'll be having a public
+1094.1 3.6 account right with the email ID so you
+1096.2 2.82 have to use the same thing so if you
+1097.7 2.88 want to know what are the existing
+1099.02 3.6 variables we have so what you can do is
+1100.58 5.339 you can say get config
+1102.62 5.58 I want the global values and I want the
+1105.919 4.321 list of values when you say enter okay
+1108.2 3.9 so the thing is in my machine I already
+1110.24 4.2 have this configured okay so this is not
+1112.1 4.86 the first time I'm using get so I have
+1114.44 4.14 these values but in your machine you'll
+1116.96 4.079 not be having this value so let's do the
+1118.58 4.74 setup how do we set the values here
+1121.039 4.02 now since I'm using my personal email so
+1123.32 4.859 that's why it is blurred because of the
+1125.059 4.74 Privacy issue uh but yeah so you can use
+1128.179 3.24 your own email ID there so how do you
+1129.799 4.201 set a value it's very simple you can say
+1131.419 4.26 get config so let me just clear this
+1134.0 3.419 screen once so if you want to configure
+1135.679 3.12 you have to say git config and then you
+1137.419 2.64 have to say Global because you want to
+1138.799 4.801 set it globally
+1140.059 5.281 and then you need to mention user dot
+1143.6 4.26 name and whatever value you have so
+1145.34 5.52 let's say I want to set Naveen here
+1147.86 5.939 enter so that is what is setting my name
+1150.86 4.199 there next I want to set my email ID as
+1153.799 4.38 I mentioned you need to set it at least
+1155.059 6.36 two remaining we'll see later user dot
+1158.179 5.281 email and I want to set my email ID and
+1161.419 4.741 again for privacy issue it is blurred I
+1163.46 5.04 will say enter and values have been set
+1166.16 3.6 now if you can check the same command uh
+1168.5 3.78 you will get your details there so
+1169.76 5.58 that's how basically you can make this
+1172.28 4.5 get your own now how do you create your
+1175.34 3.6 first project as I mentioned before this
+1176.78 3.84 not for just for coding you can use git
+1178.94 3.96 for any purpose the moment you want to
+1180.62 3.54 create something with people or maybe if
+1182.9 3.12 you want to create something maybe you
+1184.16 5.1 want to write a book maybe you want to
+1186.02 5.46 write poetries or essays you can use get
+1189.26 4.5 there and you can maintain the versions
+1191.48 4.38 of your stories so once we have done
+1193.76 4.38 with this setup so now we have GitHub in
+1195.86 4.08 our machine right let's try to use get
+1198.14 3.36 now the thing is normally as a
+1199.94 3.479 programmer we use gate for different
+1201.5 4.38 languages example let's say if I'm
+1203.419 4.321 making a project in Java I can use git
+1205.88 3.72 to create different versions of it and I
+1207.74 3.96 will will be committing it I will also
+1209.6 4.319 push that on some Republic repository
+1211.7 3.719 and then in the world we don't have just
+1213.919 3.541 one programming language right we have
+1215.419 4.14 so many programming languages now if I
+1217.46 3.66 go with any specific language here of
+1219.559 3.601 course it will create trouble for others
+1221.12 4.5 people let's say if someone is doing
+1223.16 4.32 into JavaScript or python they will not
+1225.62 3.48 feel comfortable with Java right and the
+1227.48 3.66 beauty is doesn't matter if you're
+1229.1 4.26 writing a programming language or a
+1231.14 4.62 essay some lines of statement English
+1233.36 3.96 statements it's all same forget it's not
+1235.76 3.24 like get recognize the programming
+1237.32 3.239 language and say hey for this
+1239.0 3.24 programming language I will work in this
+1240.559 3.961 way no that's not how git works it
+1242.24 3.96 basically says you give me the file you
+1244.52 4.14 give me the statements I will take care
+1246.2 4.26 of it so git will not look for the code
+1248.66 4.019 right so in this particular course we're
+1250.46 3.719 not going to focus on any programming
+1252.679 3.36 language let's say we are writing a code
+1254.179 4.081 in multiple files doesn't matter the
+1256.039 3.901 language so it's important for us to
+1258.26 3.6 understand how do you store that file
+1259.94 4.02 with Git how do you work with Git to
+1261.86 3.84 merge different files so whatever lines
+1263.96 3.839 I write it will be normal English maybe
+1265.7 4.26 at sudo code for that matter but there
+1267.799 3.421 this can be used by anyone even if
+1269.96 3.599 you're writing a book or if you're
+1271.22 3.78 writing a script for a video okay so
+1273.559 2.581 let's get started so what I will do is
+1275.0 3.539 first of all if you want to type
+1276.14 3.539 something you need a editor right now in
+1278.539 3.301 this particular course I'm going to use
+1279.679 4.74 vs code because that's very famous
+1281.84 4.68 uh so in my machine I already have vs
+1284.419 5.041 code installed so let me open that so I
+1286.52 5.34 got my vs code open here and I will just
+1289.46 4.62 reduce the size of a bit yeah okay so
+1291.86 4.62 this is my vs code uh you can use any ID
+1294.08 4.32 for that matter and then in this I will
+1296.48 3.72 just open up folder so this is where I
+1298.4 5.399 will be working I will be working in
+1300.2 6.42 general so if you open a folder
+1303.799 5.821 and let me create this folder inside my
+1306.62 5.52 user which is Naveen in this case and I
+1309.62 4.2 will create this folder as first project
+1312.14 3.659 of course this can be anything but let's
+1313.82 4.08 say first project and opening it now
+1315.799 4.081 imagine this as your working directory
+1317.9 3.12 so what is working directory example
+1319.88 3.179 doesn't matter if you're writing a book
+1321.02 4.5 or writing a code you will put that in a
+1323.059 3.6 folder this is what your folder is so
+1325.52 3.84 you can say this is your working
+1326.659 4.681 directory right and now I will open a
+1329.36 3.299 terminal now as I mentioned before we
+1331.34 2.88 need to do everything on a terminal
+1332.659 3.241 right so if you are using vs query you
+1334.22 3.12 get a terminal inbuilt or if you are
+1335.9 3.659 using some other IDE or some other
+1337.34 3.959 editors let's say notepad in that case
+1339.559 3.901 you will be using your command prompt
+1341.299 4.081 right now whatever we did before we did
+1343.46 4.199 that on a command blocked here we are
+1345.38 4.26 using a internal command prompt of vs
+1347.659 3.721 code we call them as terminal here again
+1349.64 2.94 same thing different terminology in fact
+1351.38 2.82 you can also select do you want to work
+1352.58 3.42 with Powershell or do you want to work
+1354.2 3.3 with any other thing so in this case
+1356.0 3.299 when I say terminal It Is by default
+1357.5 4.2 using Powershell so that's fine we have
+1359.299 4.26 tested this on Powershell it was working
+1361.7 3.599 so let's continue with it basically if
+1363.559 4.561 you want to understand gate you have to
+1365.299 5.161 understand different areas in which git
+1368.12 4.32 works now basically for get or not
+1370.46 3.959 forget in general this is your project
+1372.44 4.56 right so you can imagine this first
+1374.419 4.38 project as your folder now whatever you
+1377.0 3.48 do inside this git has no idea what
+1378.799 4.441 you're doing okay you have to let git
+1380.48 4.86 know that hey you know I want to track
+1383.24 4.86 my progress I want to commit I want to
+1385.34 4.56 create different versions right and to
+1388.1 3.6 tell that to get you have to do
+1389.9 3.36 something now basically apart from your
+1391.7 5.16 working directory we have something
+1393.26 6.84 called a staging area now staging area
+1396.86 4.98 is a place where git knows okay in your
+1400.1 3.6 project you have let's say 10 files out
+1401.84 4.319 of 10 files you have five files which
+1403.7 4.32 you want get to track now how will you
+1406.159 3.301 tell that and that's where staging area
+1408.02 3.48 it comes into picture you have to tell
+1409.46 4.8 get hey whatever is there in the staging
+1411.5 5.46 area please take care of it other files
+1414.26 4.32 you can ignore that okay so staging area
+1416.96 3.9 becomes important because that's where
+1418.58 4.92 git Works apart from that we have
+1420.86 3.96 something called a commit history as I
+1423.5 3.78 mentioned for you can create different
+1424.82 4.739 versions right and every time you commit
+1427.28 3.66 you create one version basically and the
+1429.559 3.061 beauty is you can go back of course I
+1430.94 3.599 will show you those things but these
+1432.62 3.9 areas are important so you are working
+1434.539 3.601 with this directory and whatever you do
+1436.52 3.72 in this directory git has no idea okay
+1438.14 3.96 and if you say hey get do something with
+1440.24 4.74 this git will say what you're saying bro
+1442.1 4.62 so basically git has no idea what you're
+1444.98 3.6 doing so you have to push that into a
+1446.72 4.02 staging area how will I do that we'll
+1448.58 4.079 see that later and then one more area we
+1450.74 3.419 have is the commit history now how
+1452.659 3.301 exactly all this thing looks like we'll
+1454.159 3.181 see that later but you have Commit
+1455.96 3.66 history where you have to do committing
+1457.34 4.02 now this too which is your staging area
+1459.62 4.14 and your commit history they become a
+1461.36 4.679 part of a different box which is your
+1463.76 6.36 git a lot of people do get confused
+1466.039 5.101 between uh working directory and uh git
+1470.12 3.179 repository there are two different
+1471.14 3.899 things it's just that it looks similar
+1473.299 4.321 so they say okay this is my git
+1475.039 4.201 repository no this is different from uh
+1477.62 3.84 the git repository this is your working
+1479.24 4.46 directory okay so now what I will do is
+1481.46 4.86 whatever files I have I will create here
+1483.7 6.0 they have no so git has no idea about it
+1486.32 5.88 right so I need to create a local
+1489.7 4.66 repository here so when I say local it
+1492.2 3.839 means it's there in this machine
+1494.36 3.299 what if I want to share this with
+1496.039 3.961 everyone else in the world or maybe I'm
+1497.659 4.561 with my with my team in that case I will
+1500.0 3.78 create a remote repository this can be
+1502.22 3.72 done with the help of gitlab or
+1503.78 4.08 bitbucket or GitHub your choice but
+1505.94 4.5 those are the options we have now here
+1507.86 4.799 uh we need to create a git repository or
+1510.44 3.78 local repository the way you can do that
+1512.659 3.661 is very very simple you just have to use
+1514.22 3.66 a command kit as we are using first of
+1516.32 3.0 all before we're going forward I will
+1517.88 3.179 say Git Version and you can say this is
+1519.32 5.4 a version right now if you want to
+1521.059 5.401 create your git repository local
+1524.72 4.199 repository you have to use something
+1526.46 4.38 called init okay so once you do that you
+1528.919 4.201 it will create a local repository in
+1530.84 4.5 your project okay so before going this
+1533.12 3.419 what I will do is I will use one more
+1535.34 2.88 command now this command is very
+1536.539 3.601 important which is called git status and
+1538.22 3.54 we'll be using this multiple times so
+1540.14 3.72 every time you want to do something you
+1541.76 4.2 will use git status a lot so when I say
+1543.86 3.9 git status it says there's not a git
+1545.96 3.839 repository okay so we don't have a
+1547.76 4.44 depository it says hey you are trying to
+1549.799 4.201 run status but where is a repository as
+1552.2 4.079 I mentioned before the folder here which
+1554.0 5.039 is first project is your working
+1556.279 4.14 directory if you want to use Git You
+1559.039 4.921 need to initialize git so you have to
+1560.419 6.841 say git init and this will create the
+1563.96 6.42 empty git repository and now you have
+1567.26 4.62 git here so where do we find it so you
+1570.38 4.919 can see we have this path which is C
+1571.88 6.06 slash user slash Naveen slash first
+1575.299 4.62 project slash dot get now this is your
+1577.94 3.9 folder of course this is a hidden folder
+1579.919 5.281 but this is where it tracks everything
+1581.84 4.68 so the staging area uh the uh commit
+1585.2 4.02 history everything will be present
+1586.52 4.38 inside that git folder and this is
+1589.22 3.78 different from your working directory
+1590.9 3.84 example whatever file you create here
+1593.0 4.38 will be a part of your project but not
+1594.74 4.38 part of dot get that's the important
+1597.38 3.179 remember in fact till the end of the
+1599.12 2.82 project or end of the series this is
+1600.559 3.781 something you have to remember by
+1601.94 4.56 default when you create a file it will
+1604.34 5.04 be part of your working directory you
+1606.5 5.279 have to let git know that this should be
+1609.38 5.279 a part of git and that goes into staging
+1611.779 4.981 area okay so now again let's do git
+1614.659 6.721 status and you can see now git status
+1616.76 7.5 works but then it says get status is on
+1621.38 4.98 Branch Master oh now this is something
+1624.26 4.14 we forgot to do remember when we were
+1626.36 3.48 installing git I've mentioned that by
+1628.4 4.32 default when you initialize your git
+1629.84 4.8 project you will get a master branch but
+1632.72 3.24 what we want is a means we don't want to
+1634.64 4.5 use Master we want to use something else
+1635.96 5.339 it can be main it can be a demo it can
+1639.14 4.86 be any other name for that matter here
+1641.299 4.86 we have the master we don't want Master
+1644.0 4.26 but even if you have Master here it says
+1646.159 3.481 there is no commits yet okay so we have
+1648.26 3.18 not created something we have not done
+1649.64 3.36 the committing here as well again what
+1651.44 3.839 is commit we'll do we'll see that later
+1653.0 3.84 but at this point uh we don't want this
+1655.279 3.601 name right we don't want master so what
+1656.84 4.62 you can do is you need to remove git now
+1658.88 4.14 do we have a way to remove git here now
+1661.46 4.319 we have to delete this folder so you
+1663.02 6.62 have to delete dot get okay so we can
+1665.779 8.221 say RM hyphen RF and we can say delete
+1669.64 6.34 git okay it says it's why okay don't
+1674.0 3.36 have sufficient rights okay that's fine
+1675.98 3.9 I will just delete time from outside
+1677.36 3.78 okay so how do I delete that so what we
+1679.88 2.7 can do is here we can we cannot say
+1681.14 3.419 hidden folders right so let me jump to
+1682.58 4.44 that folder okay this is a folder right
+1684.559 4.081 now here we have dot get we can simply
+1687.02 5.279 shift delete
+1688.64 6.06 and gone now if you try git status you
+1692.299 5.461 can say it will say not a git repository
+1694.7 4.92 and now let's initialize it now the way
+1697.76 4.56 you can do that if you say git in it it
+1699.62 5.22 will by default give you a master we
+1702.32 3.9 want main right in that case you will
+1704.84 4.74 use something called
+1706.22 5.28 hyphen B and Main so basically now
+1709.58 3.959 you're saying that so again what is
+1711.5 4.02 we'll talk about that b later when we
+1713.539 3.301 talk about branches but here we are
+1715.52 2.759 trying to say that whenever you
+1716.84 3.48 initialize this project make sure that
+1718.279 5.041 you have the main name not the master
+1720.32 5.04 when I say enter okay it says initial
+1723.32 4.14 empty project created or empty grid
+1725.36 4.26 repository created and now if you say
+1727.46 3.839 get status you can see the branch name
+1729.62 4.26 okay so it's revealed right so the
+1731.299 4.561 hyphen B is Branch here so branch is
+1733.88 3.779 main not master in this case and we are
+1735.86 3.72 going to continue with main till the end
+1737.659 3.241 of the course now once we have done with
+1739.58 3.599 the initializing of the project or
+1740.9 5.399 initializing of the get how do you add
+1743.179 5.041 files that will say in the next video so
+1746.299 4.021 basically we were able to create a
+1748.22 3.839 project here of course we got a empty
+1750.32 4.739 folder which is your working directory
+1752.059 6.781 and we also able to get the git in it
+1755.059 5.521 remember we have we got a main branch we
+1758.84 3.059 have initialized the gate project now
+1760.58 2.819 basically the way you can check if
+1761.899 3.181 everything is working fine you can say
+1763.399 4.201 git status and we are doing this from
+1765.08 4.68 last one video right so git status will
+1767.6 5.64 give you the status of your git project
+1769.76 4.86 it says on Branch main that means we are
+1773.24 2.64 on the main branch now of course in
+1774.62 3.779 future we'll see how to make a different
+1775.88 3.84 branches and it says there is no commits
+1778.399 2.341 yet so of course we have not done the
+1779.72 3.66 commit yet
+1780.74 3.96 and then the project itself is empty now
+1783.38 3.0 what I will do is I will create a very
+1784.7 2.82 simple file now the thing is it doesn't
+1786.38 3.12 matter what type of project you're
+1787.52 4.2 working on a software project or a book
+1789.5 4.14 project you do create different files
+1791.72 3.72 right now I don't want to go for any
+1793.64 4.38 language specific things here related to
+1795.44 5.219 programming let me create a general file
+1798.02 6.18 and let me name this as my first code
+1800.659 4.821 dot txt or txt so instead of going for
+1804.2 4.5 DOT
+1805.48 6.76 java.c.cs which is C sharp.cpp let's go
+1808.7 5.699 for DOT txt now this can be a coding
+1812.24 5.64 file as well it git forget everything is
+1814.399 5.461 same it will trade txt as any other file
+1817.88 3.539 okay so what I will do here is well I
+1819.86 4.98 will write a very simple statement and I
+1821.419 6.421 will say hello world okay so that's it
+1824.84 5.52 nothing much a very simple line in my
+1827.84 4.559 first line of code now the thing is this
+1830.36 4.38 project or this file is there in your
+1832.399 4.081 working project right if you remember we
+1834.74 4.2 have talked about those different areas
+1836.48 4.14 right we have a working area so working
+1838.94 3.66 directly where this is where you edit
+1840.62 4.62 your files and as a programmer you work
+1842.6 4.319 with but if you want git to handle this
+1845.24 3.84 you need to add that in a staging area
+1846.919 3.901 if you don't do that what happens let's
+1849.08 3.719 say let's try now here what I will do is
+1850.82 4.62 I will say again git status it says
+1852.799 4.921 there is a untracked file now the thing
+1855.44 4.2 is if you want to commit something if
+1857.72 4.559 you want git to take care of some files
+1859.64 4.5 for different versions you have to give
+1862.279 3.961 that to git and the way you can do that
+1864.14 3.96 is by adding that particular file to
+1866.24 3.9 this staging area now at this point we
+1868.1 4.439 have not done that and that's why it
+1870.14 4.259 says so let's read everything so it says
+1872.539 4.201 on Branch main that perfectly makes
+1874.399 4.321 sense no commits yet of course we have
+1876.74 3.96 not done the commit yet but it says
+1878.72 3.959 there is a untracked file okay there
+1880.7 4.079 might be multiple files but here we only
+1882.679 5.581 have one which is first chord dot txt
+1884.779 6.481 okay uh it says nothing to add to commit
+1888.26 4.68 but untried files present okay you know
+1891.26 4.26 what happens let's say we have this file
+1892.94 4.739 and now I want git to handle it now the
+1895.52 4.08 way you can add it to the git by using
+1897.679 4.141 something called a commit right so we
+1899.6 4.319 use git commit imagine git commit as
+1901.82 4.5 saving something but then git will not
+1903.919 3.961 directly save this you have to make sure
+1906.32 3.78 that you add this in staging it that's
+1907.88 3.84 what it says here now if you want to add
+1910.1 3.299 a particular file to the staging area
+1911.72 3.839 this is what this is the command you
+1913.399 5.101 have to use so what is a command it is
+1915.559 4.98 get add so that's the two words you have
+1918.5 3.72 to use git add and then you have to
+1920.539 6.961 mention the file name the file name here
+1922.22 7.62 is my first code dot txt okay and when I
+1927.5 4.62 say enter now this is added in the
+1929.84 4.26 staging area and now once you have done
+1932.12 4.5 that let me just clear the file or clear
+1934.1 4.319 this screen once you have added the file
+1936.62 3.6 to the staging area when you say enter
+1938.419 4.74 now you can see it says something it
+1940.22 5.64 says on Branch main makes sense no
+1943.159 4.981 commits yet of course but then it says
+1945.86 4.38 changes to the committed it says there
+1948.14 4.8 is a new file added called First Code
+1950.24 5.52 now is it available or is it committed
+1952.94 4.739 not yet this is not committed yet it is
+1955.76 3.6 just that this is into a staging
+1957.679 3.781 environment yeah if you want to unstage
+1959.36 5.22 it you can use something like this you
+1961.46 4.8 can say git RM cached file uh you do on
+1964.58 3.42 stage but we don't want to unstage it we
+1966.26 3.659 want to commit it now how do we know
+1968.0 3.779 that we have different commits as I
+1969.919 3.601 mentioned before it also maintained the
+1971.779 3.601 history right so whatever work you have
+1973.52 4.259 done so let's say in your project you
+1975.38 3.899 have till now you have done 50 commits
+1977.779 3.361 and if you want to know all those
+1979.279 4.201 commits you can use a very simple
+1981.14 4.68 command called git log so with the help
+1983.48 4.199 of git log you can see all the initial
+1985.82 3.599 comments and you can see it says your
+1987.679 4.5 current Branch main because that's my
+1989.419 4.98 main branch does not have any commits
+1992.179 4.141 yet so that means the file is there in
+1994.399 4.081 your working directory the file is also
+1996.32 4.62 there in the staging but not in the
+1998.48 4.14 comment history now to achieve that to
+2000.94 3.66 commit this we have to pass another
+2002.62 4.74 command and that command is very simple
+2004.6 4.439 which is the commit okay so the thing is
+2007.36 3.9 one of the question you might be having
+2009.039 4.98 okay so once we say commit it means it
+2011.26 4.019 goes into the local commit right but how
+2014.019 3.601 many times we should we should do that
+2015.279 4.26 and after how many files edit so
+2017.62 4.32 normally let's say if I can think about
+2019.539 5.101 my project and if I'm working on one
+2021.94 5.099 feature I will be thinking okay once I
+2024.64 3.899 complete this feature I will say commit
+2027.039 3.421 right so that's why the project will be
+2028.539 3.961 stored that's not the case actually it
+2030.46 4.38 depends upon a lot of different factors
+2032.5 4.86 you don't work alone right you work in a
+2034.84 4.26 team so sometimes your company defines
+2037.36 4.02 how do you how should you commit how
+2039.1 4.559 often you should commit uh your company
+2041.38 4.5 defines what type of passages you should
+2043.659 4.621 have that's right so for this commit you
+2045.88 4.019 have to also pass the message so for
+2048.28 3.119 this particular series we are not going
+2049.899 3.24 to see when to commit it's just that we
+2051.399 4.141 have to understand how to become it
+2053.139 4.321 again when to commit is something you
+2055.54 3.96 need to decide based on your project but
+2057.46 4.56 then and it is a common saying commit
+2059.5 4.74 early and commit often right so we are
+2062.02 3.96 doing committing here now if you simply
+2064.24 4.5 say git commit you can say it will not
+2065.98 4.98 okay it is giving you some message here
+2068.74 5.159 please enter the commit message for your
+2070.96 5.52 changes and blah blah blah okay so what
+2073.899 5.881 I will do is I will just edit uh go back
+2076.48 5.22 because this is the web okay so about in
+2079.78 3.599 a commit due to empty commit message
+2081.7 3.6 basically commit has not done the thing
+2083.379 3.601 is when you want to commit you have to
+2085.3 3.839 make sure that you also pass a message
+2086.98 3.3 of course right every time you commit
+2089.139 3.361 something you have to specify what
+2090.28 3.839 changes you have done there so I can say
+2092.5 4.2 uh if you want to add message you can
+2094.119 6.121 say hyphen M and then you can pass a
+2096.7 5.34 message my first commit now of course
+2100.24 4.56 this type of messages should be logical
+2102.04 4.26 it can also defines what features you
+2104.8 4.559 have added maybe you have resolved some
+2106.3 5.16 bug you can mention that there or uh I
+2109.359 3.961 have seen few projects or few companies
+2111.46 3.84 they also follow something called issue
+2113.32 3.779 tracking so let's say if there's an
+2115.3 3.36 issue created or some tickets created
+2117.099 3.48 you also information the ticket number
+2118.66 3.54 which ticket you have resolved okay
+2120.579 5.101 something like that and when you say
+2122.2 5.159 enter now it says one filed change one
+2125.68 4.26 insertion that's right so basically
+2127.359 4.921 we're able to do our first commit here
+2129.94 5.52 so this is your first commit it says
+2132.28 7.319 create a mode this is the file name and
+2135.46 6.78 now this is getting tracked by get okay
+2139.599 4.801 cool uh after doing this I will say git
+2142.24 4.619 status and now it says on Main Branch
+2144.4 4.62 nothing to commit working tree clean
+2146.859 3.72 okay that's good now if You observe
+2149.02 3.12 there is one thing here which I
+2150.579 3.661 intentionally missed which is this part
+2152.14 4.56 what is this number that looks weird
+2154.24 4.619 right see the thing is git also provides
+2156.7 4.5 you something called Integrity it means
+2158.859 4.5 once you save something in a git commit
+2161.2 3.659 you cannot change it without get knowing
+2163.359 3.601 about it so basically every time you
+2164.859 4.201 want to make a change git will know that
+2166.96 3.54 something has been changed how it
+2169.06 3.18 basically follows something called a
+2170.5 4.56 checksum now checksum is something
+2172.24 4.98 imagine checksum as a fingerprint for
+2175.06 4.14 the data so example if every time I
+2177.22 5.22 change something in the data it will
+2179.2 6.72 change the checksum as well okay even if
+2182.44 6.3 a small change in your in your code will
+2185.92 6.0 change its exam and git creates a
+2188.74 5.099 checksum for every commit so if you try
+2191.92 3.78 to change something here in the commit
+2193.839 4.621 itself because of course a local file
+2195.7 4.56 right if you make any changes it will
+2198.46 4.02 come to know that hey it's not matching
+2200.26 3.66 you have made the changes but I don't
+2202.48 3.599 have any idea about it so I have the
+2203.92 4.02 older version so basically checksum is
+2206.079 4.921 very important now this is done with the
+2207.94 4.56 help of sha1 and it creates not this
+2211.0 4.26 number of characters it creates 40
+2212.5 4.74 characters okay out of which we only
+2215.26 3.5 focus on the first seven so if you can
+2217.24 5.0 see these are the first seven
+2218.76 6.52 hexadecimal numbers so we got
+2222.24 4.66 fd914 D5 of course when you do it on
+2225.28 3.6 your machine you will get a different
+2226.9 3.6 number right because this is unique to
+2228.88 3.479 this particular data but behind the
+2230.5 4.26 scene this is not seven This is 40
+2232.359 4.861 characters to display it is only showing
+2234.76 4.2 the seven characters here okay now since
+2237.22 3.72 we are have done our first commit let's
+2238.96 3.54 try git log so git log will give you the
+2240.94 4.32 log of all the comments when I say enter
+2242.5 4.2 now you can see it gives you it shows
+2245.26 2.64 something it says okay what I will do is
+2246.7 3.24 I will just clear the screen so that
+2247.9 4.56 will only see this particular message
+2249.94 4.88 okay so let's see what it it says it
+2252.46 5.22 says there's a commit okay makes sense
+2254.82 5.32 and who is the author for this commit
+2257.68 5.04 this person Naveen and that's my email
+2260.14 4.5 ID which is hidden which is blood and
+2262.72 4.139 this is a date so this is when I have
+2264.64 3.9 done this commit and now when you see
+2266.859 3.061 different commits here there is also
+2268.54 2.88 something called header now this will
+2269.92 4.02 make much more sense once we start
+2271.42 5.699 working with branches but at this point
+2273.94 5.52 uh we have head to Main and the message
+2277.119 4.021 is my first comment the more commits you
+2279.46 3.659 do you will see though all those things
+2281.14 4.76 coming up there and everyone have a
+2283.119 6.0 different commit and this is the 40
+2285.9 7.54 characters thing I was talking about so
+2289.119 7.5 that's 5 10 15 or this must be 40. okay
+2293.44 4.44 so we only say first seven right if you
+2296.619 3.601 can see up
+2297.88 3.719 here so when we created this this was
+2300.22 3.54 the first seven characters but it's
+2301.599 4.321 matching with this the first seven
+2303.76 4.38 characters right but then this is in
+2305.92 4.199 general or behind the scientists 40
+2308.14 4.92 characters now that's how basically you
+2310.119 4.861 do your first commit so we are done with
+2313.06 4.32 the first commit right and when we say
+2314.98 4.44 git log we got this particular commit
+2317.38 3.84 here and we are happy with it right we
+2319.42 3.24 got the first comment basically so what
+2321.22 3.84 I will do is I will make some changes
+2322.66 4.86 let's say I want to add some exclamation
+2325.06 4.92 marks here okay so when I do that and if
+2327.52 3.839 I want to uh let's say I want to do the
+2329.98 4.26 get status and as I mentioned before
+2331.359 5.161 this git status will be using a lot so
+2334.24 4.56 when I say get status it says oh get
+2336.52 4.44 status on Branch everything is clean
+2338.8 3.66 maybe the file is not saved okay that's
+2340.96 3.659 the issue so you have to make sure that
+2342.46 4.08 you save the file because even git is
+2344.619 3.48 not sure what you have done so every
+2346.54 3.96 time you make some changes save it in
+2348.099 5.281 your working directory first and now if
+2350.5 4.38 you see it says changes not stage for
+2353.38 4.44 comment basically there's a file which
+2354.88 5.52 we have created and now this is into a
+2357.82 6.18 modified stage now that's right the
+2360.4 5.16 thing is every time you make a change or
+2364.0 4.2 let's say every time you create a file
+2365.56 4.559 it is into working directory right and
+2368.2 3.899 then you try to Stage it so that goes
+2370.119 4.081 into the staging area so we got a
+2372.099 4.5 working directory then we moved that to
+2374.2 4.379 a staging area and then from the staging
+2376.599 4.621 area we do commit so that it will go to
+2378.579 4.201 the local commits right so those are the
+2381.22 4.44 steps which we take so before making
+2382.78 5.04 these changes we had data in the local
+2385.66 4.5 commit and then it was then the staging
+2387.82 5.22 as well the moment you make some changes
+2390.16 5.64 now it goes into again a working
+2393.04 4.74 directory now this is not stage example
+2395.8 3.84 how do I know this is not staged example
+2397.78 4.079 let's say if I do a commit now so let's
+2399.64 5.219 say if I'm doing a commit and this time
+2401.859 4.74 I will say this is my second commit uh
+2404.859 3.361 of course this is not a good way of
+2406.599 3.601 writing message but just for learning
+2408.22 4.44 purpose we are doing it so when I say
+2410.2 4.98 enter now you can see it says changes
+2412.66 4.98 not staged for comment basically if you
+2415.18 3.96 want to commit something the data the
+2417.64 4.02 file oil should be there in the staging
+2419.14 4.199 area this is not so that's important so
+2421.66 3.6 every time you make a change add that to
+2423.339 4.5 staging area then move that to the
+2425.26 4.74 commit now how do we add it we have done
+2427.839 4.081 that before right we can simply say git
+2430.0 4.44 add in fact let me just Square this coin
+2431.92 6.0 so I will say get add and then I will
+2434.44 5.76 say first code Dot txt and then when I
+2437.92 4.8 say enter okay so now this is into a
+2440.2 5.639 staging area and now once we move that
+2442.72 4.56 to staging area I can say enter and now
+2445.839 4.26 we have done with the second commit so
+2447.28 4.799 in total we got two commits okay if I do
+2450.099 3.661 a git log to check how many commits I
+2452.079 4.381 have so you can see we have two commits
+2453.76 4.2 here this was your first Commit This is
+2456.46 3.0 your second commit and of course with
+2457.96 4.5 every comment you get the message there
+2459.46 6.06 you get the time uh which is mentioned
+2462.46 5.159 here and then you also get the author
+2465.52 3.54 who has done that so maybe if you are
+2467.619 3.361 working in a team you are doing some
+2469.06 4.26 collaboration so you will also know
+2470.98 4.98 who has done what commit and that's
+2473.32 5.16 important okay so now uh this is where
+2475.96 3.78 my head is now the thing is imagine head
+2478.48 2.94 is a pointer so even if you have
+2479.74 3.06 multiple pointers in your local comments
+2481.42 3.96 as I mentioned local commits I have
+2482.8 4.62 multiple uh it's basically multiple
+2485.38 4.02 comments right so you'll be having a
+2487.42 3.659 pointer which one is the latest one or
+2489.4 3.6 which one we are pointing to
+2491.079 4.441 so here we are pointing to this one and
+2493.0 4.14 again we'll focus this more once we move
+2495.52 3.599 towards the concept of branching okay
+2497.14 3.719 now what do you think if I
+2499.119 4.201 have one more exclamation so what's the
+2500.859 5.041 step first save
+2503.32 4.5 of course it becomes a modified version
+2505.9 4.679 so it is not staged and you can see it
+2507.82 4.98 we also get a message here or not a
+2510.579 4.441 message but on the in vs code especially
+2512.8 5.52 if you are using some Ides which
+2515.02 5.339 supports get in a good way and vs code
+2518.32 4.259 does that and you can see it says M
+2520.359 4.621 which is your modified and the moment
+2522.579 5.581 you add that to your staging you will
+2524.98 4.74 this will be gone but what if of course
+2528.16 3.12 staging is important right so from
+2529.72 3.6 working you move that to staging from
+2531.28 3.66 staging you move that to commits but
+2533.32 3.0 what if you want to directly commit
+2534.94 4.139 something like this let's say I want to
+2536.32 4.98 do the commit and I will say this is my
+2539.079 4.081 third comment I'm very bad with comments
+2541.3 4.319 but this should be something like added
+2543.16 4.38 exclamation mark or a solved a
+2545.619 5.041 particular story or if you're working in
+2547.54 5.22 agile methodology but here let's say I
+2550.66 3.72 have this particular commit and now I
+2552.76 3.96 want to do the commit without staging
+2554.38 4.32 can we skip staging and we can if you
+2556.72 5.46 want to skip the staging part you can
+2558.7 6.419 simply use a hyphen a as an option so
+2562.18 4.08 say git commit hyphen a then hyphen M
+2565.119 3.121 for the message and then you can pass
+2566.26 4.5 the message basically you are skipping
+2568.24 4.02 the staging thing so if I say enter now
+2570.76 3.66 you can see the commit has been done
+2572.26 4.2 without going into staging area Okay so
+2574.42 4.08 that's important if you don't write
+2576.46 4.44 hyphen a without staging it will say it
+2578.5 4.5 is not tracked so if you if you want to
+2580.9 4.74 move from the working directly to commit
+2583.0 4.44 this is how you do it okay now if I do
+2585.64 3.719 git log once again to check everything
+2587.44 4.5 is good so you can say we got three
+2589.359 4.74 commits uh this is the third one recent
+2591.94 3.78 one and if I say enter you will see also
+2594.099 4.141 see the previous commits so this is how
+2595.72 5.639 basically you use a to move the file
+2598.24 5.04 from working directory to the commits so
+2601.359 4.201 let's try to understand the diff command
+2603.28 5.339 so basically in git we have this option
+2605.56 4.62 of finding the differences between what
+2608.619 4.261 you have worked and what is already
+2610.18 4.62 there in the comments so let's say if I
+2612.88 4.14 make some changes here so what I will do
+2614.8 3.66 is I will first of all check the status
+2617.02 4.68 of this and you can see there is nothing
+2618.46 6.3 in my uh staging or the thing to track
+2621.7 5.28 and I will make some changes now so if I
+2624.76 4.079 say hello world
+2626.98 7.74 so that's the greeting and then I will
+2628.839 8.101 say take input from user and add the
+2634.72 4.32 values so let's say I'm writing a pseudo
+2636.94 4.62 algorithm here and when I say save and
+2639.04 4.44 if you can observe especially in in vs
+2641.56 3.24 code you can see this green line This
+2643.48 5.099 basically means you have added something
+2644.8 6.42 okay in the file and now if I go back
+2648.579 4.561 here and of course I can simply
+2651.22 3.96 do a git status of course git status
+2653.14 4.08 will give me the changes here
+2655.18 3.78 but what are the changes I mean of
+2657.22 4.02 course git status will show you that
+2658.96 4.26 this product file has been modified but
+2661.24 3.96 what exactly is modified I want to know
+2663.22 5.34 that so what I can do is I can say get
+2665.2 5.1 and I can type something called diff now
+2668.56 5.22 when you say git diff and when you say
+2670.3 6.48 okay when you say enter it will show you
+2673.78 5.039 the changes which happened in the file
+2676.78 5.28 and these are the changes you can see it
+2678.819 4.861 says uh there have been few changes the
+2682.06 4.08 number of lines now this are the number
+2683.68 4.62 of lines which you have added so we got
+2686.14 3.959 hello world in fact there's a change
+2688.3 3.96 here as well of course we have not
+2690.099 3.961 changed here the only thing is I said
+2692.26 4.38 enter right that's a new character now
+2694.06 4.019 now basically this is the older one and
+2696.64 3.66 these are the new changes now if you
+2698.079 4.5 want to see okay I'm doing a commit it
+2700.3 3.96 says it is untracked I want to know what
+2702.579 4.74 changes I have made so you can use
+2704.26 4.559 something called a git diff so basically
+2707.319 2.881 it will check the comment it will check
+2708.819 3.0 what data you have in your working
+2710.2 4.02 directory and then it will track the
+2711.819 4.741 changes and now once you have done that
+2714.22 3.599 maybe I want to add this so I will say
+2716.56 6.12 git add
+2717.819 6.3 first code Dot txt and enter enter and
+2722.68 2.82 now once you have added let's say git
+2724.119 4.2 diff now you can see there's no
+2725.5 5.46 difference the reason is now this is not
+2728.319 5.28 into a modified this is into a staging
+2730.96 4.8 right now once you move this to staging
+2733.599 3.841 I can also comment but now what if I
+2735.76 4.2 want to find the difference I have added
+2737.44 4.26 that to a staging area and now I want I
+2739.96 4.619 want to find the difference in this case
+2741.7 5.76 again you can do get diff but since we
+2744.579 6.061 are into staging I can say hyphen iPhone
+2747.46 4.68 staged and now you can track it so if
+2750.64 3.12 you have your file in the working
+2752.14 4.199 directory and if you want to check the
+2753.76 4.859 difference you can use get diff which is
+2756.339 4.141 differences and if your file is into
+2758.619 3.301 staging area then you have to use hyphen
+2760.48 3.3 iPhone staged
+2761.92 3.899 to check the changes because it's
+2763.78 3.78 already into staging area once we know
+2765.819 3.841 the difference we can simply do the
+2767.56 3.66 commit now and of course for commit we
+2769.66 4.439 have to pass the same thing we have to
+2771.22 4.98 say git commit and let's say I'm
+2774.099 4.74 basically working on a project where you
+2776.2 5.04 have each task given us number a story
+2778.839 3.74 number so I can also say
+2781.24 6.18 story
+2782.579 6.401 3.1 and I can say message is user input
+2787.42 3.0 so basically that's how you can mention
+2788.98 3.9 some messages which should be logical
+2790.42 4.14 yeah and now if you see git log you can
+2792.88 3.719 see the entire history so this is the
+2794.56 4.019 recent one which you have done uh and
+2796.599 3.72 then this is the this is your third
+2798.579 3.961 commit and if you go down you will you
+2800.319 5.101 will find more let's try to understand
+2802.54 4.38 how do we remove a file from a get
+2805.42 3.54 repository so let's say you already
+2806.92 3.659 created a file and then you have pushed
+2808.96 3.72 that Target repository and now you
+2810.579 4.981 realize oh that's not the file I wanted
+2812.68 4.38 to put that into git repository now why
+2815.56 3.12 you will not put something in the git
+2817.06 2.88 repository now think about this you're
+2818.68 3.84 working on a project and you have
+2819.94 4.5 multiple files and one of the file is
+2822.52 4.68 basically where you put your credentials
+2824.44 4.74 let's say I create a file here
+2827.2 4.919 so this is where I will put all my
+2829.18 6.3 password just for my references
+2832.119 4.98 so I will say all my credits.txt and
+2835.48 3.66 this is where I will basically put my
+2837.099 4.681 username password so I will say username
+2839.14 6.74 is nvn
+2841.78 6.66 02 and my password is
+2845.88 5.26 rdy03 so this is my basically username
+2848.44 4.2 and that's my password and I just want
+2851.14 3.12 to save it for my reference so that I
+2852.64 3.6 can just connect with the database or
+2854.26 3.48 something and I want this to be only in
+2856.24 3.96 my particular machine I don't want to
+2857.74 3.9 push to the server right and up after
+2860.2 3.6 this let's say we also have some readme
+2861.64 4.86 files so we've got redmi.txt or
+2863.8 4.38 readme.md basically we have a concept of
+2866.5 3.839 markdown you know if you want to make
+2868.18 3.48 some document beautiful we can use
+2870.339 3.0 markdown to make it more beautiful
+2871.66 4.56 that's what git uses
+2873.339 5.52 so basically we get readme.md and this
+2876.22 5.04 is an important file in in every project
+2878.859 4.201 so we'll also see that and okay so you
+2881.26 4.2 can see we got you here which is
+2883.06 5.7 untracked basically so let's say in
+2885.46 6.3 immediate me I will say this is my first
+2888.76 3.0 project
+2891.819 5.641 author
+2893.56 6.18 is Naveen ready company
+2897.46 4.26 studies score okay so let's say we have
+2899.74 4.02 this values here credentials we already
+2901.72 4.46 mentioned and let's also do some changes
+2903.76 5.9 in the first code in the first chord now
+2906.18 7.0 you want to submit
+2909.66 5.32 data to the database so let's say we
+2913.18 3.419 have all these changes in the code okay
+2914.98 3.54 this is Imagine This is a coding file of
+2916.599 4.081 any language which you love and we have
+2918.52 4.92 method changes here and now what I will
+2920.68 4.919 do is I will just see the git status
+2923.44 4.8 when I say get status you can see it it
+2925.599 4.441 is showing that you have one modified
+2928.24 4.32 file and that's correct we have done the
+2930.04 4.74 modification and you've got two files
+2932.56 4.32 which are basically untracked and that's
+2934.78 5.039 why it says you can see if you see here
+2936.88 5.64 we have U which is untracked okay now I
+2939.819 4.441 know what to do in fact if you do one
+2942.52 4.92 status once again you can see there is
+2944.26 6.66 an option here as well no changes added
+2947.44 6.36 to the commit use git add or get commit
+2950.92 5.04 hyphen a so hyphen a is basically an
+2953.8 3.24 option of adding directly in one line
+2955.96 3.06 itself
+2957.04 3.42 but let's say if I want to add all the
+2959.02 3.78 files in the staging how will I do that
+2960.46 5.34 of course uh if you want to add all the
+2962.8 5.24 files you can simply say git add and
+2965.8 4.68 mention each file so this is
+2968.04 4.0 firstcode.txt then you say enter again
+2970.48 3.359 do it for the next one
+2972.04 4.2 or what you can do is there is a
+2973.839 4.201 shortcut you can simply say dot now dot
+2976.24 4.079 simply means you can add all the files
+2978.04 4.92 in the in the staging area enter and
+2980.319 4.321 done now all the files are being tracked
+2982.96 4.56 so you can see now it says a which is
+2984.64 4.74 added and if I say get status now so you
+2987.52 4.02 can see we got a new file two new files
+2989.38 3.84 and one is modified one
+2991.54 3.779 and if you want to make the changes you
+2993.22 4.02 can simply say git commit
+2995.319 3.78 hyphen m
+2997.24 7.619 and you can pass the message you can say
+2999.099 8.581 read me and story 3.2
+3004.859 5.341 okay so let's say I'm adding this three
+3007.68 4.139 and then you can see we got the files in
+3010.2 5.46 the database now but basically a git
+3011.819 5.701 Gator database now if I say get status
+3015.66 3.54 what happens if I say get status it says
+3017.52 4.14 everything is clean nothing to commit
+3019.2 5.399 and now everything has been tracked in
+3021.66 5.28 the git repository that's cool right but
+3024.599 4.561 then the thing is I will now after
+3026.94 4.74 working for let's say a few hours I will
+3029.16 5.28 decided to push this to the GitHub
+3031.68 4.8 repository or some public repository now
+3034.44 3.96 at that point what happens is everyone
+3036.48 5.16 can see my username password I don't
+3038.4 5.52 want it basically I don't want this file
+3041.64 4.14 to be there in my git one way you can do
+3043.92 5.1 that you can just right click here
+3045.78 5.64 and you can say delete
+3049.02 5.64 move to trash and done your job is done
+3051.42 6.06 but the problem is if you say git status
+3054.66 4.8 it's already there it says it is deleted
+3057.48 5.16 but it is deleted from your working
+3059.46 5.879 directory not from your git right so one
+3062.64 5.1 thing you can do is you can say
+3065.339 5.341 but if you do git commit that's that's
+3067.74 5.04 tricky now right so what was the idea
+3070.68 3.96 here is don't delete it from here
+3072.78 4.38 because I get status everything is clean
+3074.64 4.86 don't delete from your working directory
+3077.16 4.679 you have to delete first from the get
+3079.5 4.5 and the way you can do that is by saying
+3081.839 4.02 get RM that's the command you have to
+3084.0 3.72 use and then you have to mention that
+3085.859 4.561 which is basically cached
+3087.72 4.82 so we have to say cast and then mention
+3090.42 5.939 the file name which is credits
+3092.54 5.559 dot txt now when you say enter it says
+3096.359 4.081 removed and you can see now it is
+3098.099 4.681 untracked so basically first you have to
+3100.44 6.179 delete your file from the get now it is
+3102.78 7.2 on track and you can happily delete now
+3106.619 5.46 delete moved and now you can say get
+3109.98 3.599 status everything is cool you can say
+3112.079 5.181 changes to the changes to be committed
+3113.579 7.561 so I will simply say git commit hyphen M
+3117.26 6.819 remove the credits file
+3121.14 4.8 and done so now you can see we don't
+3124.079 3.121 have anything here and we don't have
+3125.94 2.72 anything in the git and that's how
+3127.2 4.8 basically you can Safeguard yourself
+3128.66 5.26 from your unexpected file uploads now if
+3132.0 3.54 you remember when we talked about git we
+3133.92 3.78 have mentioned there are different types
+3135.54 4.98 of repositories right now basically when
+3137.7 5.159 you can have git tool which is a
+3140.52 4.26 distributed Version Control System you
+3142.859 3.901 have a commit history in your machine
+3144.78 4.44 right and then of course you can jump
+3146.76 4.02 between the commits but what if you want
+3149.22 3.78 to collaborate with everyone so let's
+3150.78 4.38 say you are working in a team and then
+3153.0 4.079 they are working on some feature you are
+3155.16 4.14 working in some feature how will you
+3157.079 4.26 collaborate and that's where we have to
+3159.3 4.559 use something called a remote repository
+3161.339 4.201 now what is a remote repository so
+3163.859 2.821 example let's say we have six people in
+3165.54 3.059 the team they have their own machine
+3166.68 4.5 they have a local copy or local
+3168.599 4.02 repository and now if you want to share
+3171.18 3.899 it we need to use some remote
+3172.619 4.141 repositories some server which will be
+3175.079 4.74 public so that they can fetch and they
+3176.76 5.22 can do something of course this can be a
+3179.819 3.601 private to the company or this can be
+3181.98 3.54 public so that you can access it from
+3183.42 3.48 anywhere but let's say at this point
+3185.52 3.9 let's talk about public because we're
+3186.9 4.86 not working for any organization where
+3189.42 3.6 the security is most important we are
+3191.76 3.18 learning it right so let's talk about
+3193.02 4.44 the public here now there are different
+3194.94 4.08 options we have in fact uh the options
+3197.46 3.119 which are talking about they also
+3199.02 4.68 provide you something called private
+3200.579 5.221 again we'll see those options there uh
+3203.7 4.32 okay so we have three options here there
+3205.8 4.2 might be multiple repositories but a
+3208.02 5.28 multiple remote repository options but
+3210.0 6.059 here uh the most famous is GitHub then
+3213.3 5.46 we have git lab the second one and then
+3216.059 4.681 third one is bitbucket now bitbucket is
+3218.76 3.839 given by atlassian which is a very
+3220.74 4.26 famous company they provide different
+3222.599 4.681 tools for the developers so you can use
+3225.0 4.319 this and few companies are using it most
+3227.28 3.6 of the companies who want to use the
+3229.319 3.361 private features the paid private
+3230.88 3.36 features they can use gitlab or they are
+3232.68 4.26 using gitlab basically
+3234.24 4.859 and then for the public for the normal
+3236.94 4.679 people or for the public we have
+3239.099 4.141 something called GitHub now GitHub also
+3241.619 3.541 helps you to create your own profile and
+3243.24 3.42 that's why if you go for the interviews
+3245.16 3.659 or if you talk to people they will say
+3246.66 4.14 hey give me your GitHub profile it's not
+3248.819 3.361 like you can't work on gitlab or Bitcoin
+3250.8 3.48 it's just that GitHub is very famous
+3252.18 3.96 among a normal public
+3254.28 3.539 so we are going to use GitHub here of
+3256.14 3.84 course you can switch to any repository
+3257.819 4.441 your choice but let's talk about GitHub
+3259.98 4.5 now first of all you need to have your
+3262.26 4.14 account on GitHub okay so how do I get
+3264.48 4.26 that it's very simple click on sign up
+3266.4 4.679 enter details here whatever email you
+3268.74 3.54 have and uh you can log in once you are
+3271.079 2.461 signed up you have to also make sure
+3272.28 3.839 that you're logged in
+3273.54 4.2 and let me just do the login First and
+3276.119 3.421 I'm just hiding my email ID there so
+3277.74 4.2 that we can keep it privacy
+3279.54 5.94 and here we go so I'm trying to log in
+3281.94 4.86 and that's my GitHub repository okay so
+3285.48 3.78 I have a lot of repositories here
+3286.8 4.62 because when I did something I also
+3289.26 3.9 pushed that code on GitHub so that you
+3291.42 3.24 can see and you can see all the
+3293.16 2.939 repositories here there might be some
+3294.66 3.54 private repositories which you cannot
+3296.099 4.321 see but that's how it is okay so we have
+3298.2 4.619 some repositories here now what if you
+3300.42 4.32 want to create one now first of all how
+3302.819 3.361 we can use GitHub it's very easy let's
+3304.74 4.56 say if you want to search a particular
+3306.18 4.379 project uh so what you can do is you can
+3309.3 2.819 search for something example let's say I
+3310.559 4.921 want to search for Linux kernel which is
+3312.119 6.361 a very famous uh repository so you can
+3315.48 5.82 see this is Linux the Linux kernel which
+3318.48 5.52 we use it is open source and the entire
+3321.3 5.819 source code is available here
+3324.0 5.099 now the owner of this is Linus which is
+3327.119 4.861 Linus Tower World everyone knows it
+3329.099 4.681 right so you can see uh this is the
+3331.98 3.24 entire code of Linux and you can get
+3333.78 2.4 this on your machine okay it's very
+3335.22 3.78 easily
+3336.18 5.04 now it also analyzed the entire code
+3339.0 5.099 base it will tell you which languages it
+3341.22 5.7 has used so you can see 98.4 percent of
+3344.099 6.24 this code is C uh some shell script some
+3346.92 4.82 python script and make file so these are
+3350.339 5.101 the languages they have used
+3351.74 6.599 contributors you can see more than
+3355.44 5.28 14 000 contributors we have for Linux
+3358.339 4.421 and you can see these are the some
+3360.72 3.42 options so at this point when I'm
+3362.76 3.96 recording this video
+3364.14 5.52 there are eight thousand more than 8 000
+3366.72 6.18 people are on this page okay so that's
+3369.66 5.88 interesting everyone want to look at the
+3372.9 4.679 code and they might want to modify it or
+3375.54 3.36 they want to add some new features so
+3377.579 3.121 basically for the project you can also
+3378.9 4.14 give Stars example if you like this
+3380.7 4.139 project you can give a star here or when
+3383.04 3.96 you create a project people can give you
+3384.839 5.52 star and that's how you become a GitHub
+3387.0 5.76 star uh otherwise or you can pay some
+3390.359 4.861 amount okay I'm just kidding so so let's
+3392.76 4.079 say we also have option of forks here uh
+3395.22 2.82 now example we will talk about what is
+3396.839 4.441 Fork later
+3398.04 5.22 and this is 48 000 Forks already
+3401.28 4.079 happened here
+3403.26 3.78 so it's called I can get this code on my
+3405.359 3.301 machine it's very simple you can click
+3407.04 4.319 on this code and you can click on
+3408.66 4.98 download zip okay and you will get the
+3411.359 3.901 entire source code but we are not going
+3413.64 4.26 to do that options we have two options
+3415.26 4.38 here which is https and SSH we are going
+3417.9 3.659 to do this but how will you use this
+3419.64 3.9 it's very simple now when you have this
+3421.559 3.481 project what you can do is or for this
+3423.54 3.66 even to browse this you don't need a
+3425.04 4.74 GitHub account I'm uh if I'm not wrong
+3427.2 5.639 uh you can get this you can simply copy
+3429.78 4.5 this okay so you can copy the link
+3432.839 2.821 okay first of all we have mentioned the
+3434.28 2.76 option right download zip that's one
+3435.66 4.679 option second is you can copy the link
+3437.04 5.16 and you can go to your terminal and here
+3440.339 4.201 you can pass a command which is git
+3442.2 4.2 clone now clone is basically copying
+3444.54 3.6 something right so you have a code in
+3446.4 4.32 the repository and now you want to copy
+3448.14 4.679 it so you can say git clone and you can
+3450.72 4.74 mention the address
+3452.819 5.821 and the moment you say enter it will
+3455.46 5.04 copy the entire Linux source code on my
+3458.64 3.419 machine
+3460.5 3.3 so you can see it is downloading it will
+3462.059 4.441 take a lot of time because I think it's
+3463.8 4.5 it's heavy I've never tried it or maybe
+3466.5 3.839 I've tried it before but never completed
+3468.3 3.9 the entire download you can see even
+3470.339 4.5 with this speed only two percent
+3472.2 3.78 completed and that's the entire size so
+3474.839 3.121 I don't want to do this I will just
+3475.98 3.66 cancel this okay I don't want to
+3477.96 3.96 download the entire stuff I just wanted
+3479.64 4.02 to show you how do you get it okay so
+3481.92 3.6 that's how you can copy uh there are
+3483.66 4.26 different options here we have https and
+3485.52 4.319 then we have SSH okay so we'll see later
+3487.92 4.439 how do we use this but at this point you
+3489.839 5.52 can see we have some repositories but
+3492.359 5.161 what if you want to create your own
+3495.359 4.141 repository it's very simple
+3497.52 3.9 if you can see let me just increase the
+3499.5 3.78 font a bit
+3501.42 3.78 yeah so if you can see there is an
+3503.28 4.2 option of plus button so I want to
+3505.2 4.2 create my own repository we have done
+3507.48 4.16 that for the local machine right so when
+3509.4 5.1 you say git init it creates a local
+3511.64 4.9 repository in your machine now I want to
+3514.5 5.16 create a remote repository for that you
+3516.54 5.7 just have to click here and click on new
+3519.66 5.159 repository click on that
+3522.24 4.8 okay it is creating yeah now this is the
+3524.819 5.461 page you will get now that's my ID
+3527.04 5.94 GitHub ID and this is my repository name
+3530.28 4.319 so let's give a name to it of course the
+3532.98 3.48 repository should have a good name and
+3534.599 4.2 we have done that for our own machine as
+3536.46 4.98 well right example when we were doing vs
+3538.799 4.141 code remember we created a project and
+3541.44 3.359 that was your repository name as well
+3542.94 4.379 here let me create something so I will
+3544.799 4.56 say git course because that's what we
+3547.319 4.561 are doing and it is available so again
+3549.359 5.101 this is not publicly checked it will
+3551.88 4.56 just check do we have in my account
+3554.46 3.599 so I don't have this name in my account
+3556.44 2.94 so I can use it you can give a
+3558.059 4.381 particular description here so you can
+3559.38 5.82 say git course demo and then you can
+3562.44 4.679 make your repository public or private
+3565.2 4.8 now Linux we were able to search it
+3567.119 4.2 because it was a public repository now
+3570.0 2.64 let's say if you're working on a project
+3571.319 3.061 and you don't want to share the code
+3572.64 4.14 with the entire world of course at that
+3574.38 3.6 place you will be using a private one so
+3576.78 2.94 of course you can share the link with
+3577.98 3.119 your friends or not for the friends but
+3579.72 3.96 with your colleagues and then you can
+3581.099 4.621 work on it public anyone can search on
+3583.68 3.6 GitHub so for this I will keep it public
+3585.72 3.42 so that you can also see the repository
+3587.28 4.2 later when you're watching this video
+3589.14 4.199 and then there's an option of add a
+3591.48 4.74 readme file so at this point I will not
+3593.339 4.381 do that now readme file is important is
+3596.22 3.119 because let's say if you have built a
+3597.72 3.72 project and if you want to mention some
+3599.339 3.901 steps what is this project how do you
+3601.44 3.3 run this project uh how do you
+3603.24 3.359 contribute so all these things you can
+3604.74 3.0 mention in the readme file but at this
+3606.599 2.581 point I don't want to add it there's
+3607.74 3.359 also option of git ignore which we'll
+3609.18 3.179 see later and then you can choose a
+3611.099 4.321 license there are different licensing
+3612.359 5.281 option here if you want to keep it open
+3615.42 4.139 source and if you want anyone to use
+3617.64 5.04 your things at this point I will not
+3619.559 5.901 choose any license and click on create
+3622.68 2.78 Repository
+3625.619 4.381 and done
+3627.66 5.159 so you can see you've got your
+3630.0 5.04 repository here now when I'm recording
+3632.819 3.961 this video there's an option of co-pilot
+3635.04 2.819 for AI programming and I will not be
+3636.78 3.539 using that
+3637.859 3.901 also I can invite collaborators at this
+3640.319 2.581 point I don't want to do that just
+3641.76 3.599 scroll down
+3642.9 4.02 and you will see all these steps now
+3645.359 3.541 first of all certain things which is
+3646.92 4.5 very important you can see a link here
+3648.9 3.78 now this link will change based on where
+3651.42 4.439 you are clicking so if you are clicking
+3652.68 4.58 in HTTPS this is what you will get and
+3655.859 3.781 most of the time when you're downloading
+3657.26 6.7 URL or some repository you will use
+3659.64 6.419 https but we will use SSH so the
+3663.96 3.96 advantages okay let's talk about those
+3666.059 3.24 Advantage later in some time so let's
+3667.92 3.12 say we got this link here just try to
+3669.299 3.54 remember we get we do get a link a
+3671.04 3.96 unique link for your repository this is
+3672.839 4.441 unique now how do you create how do we
+3675.0 4.74 work with this repository now one thing
+3677.28 4.26 to remember we have a GitHub repository
+3679.74 3.839 which is on the internet somewhere I
+3681.54 4.38 don't know where it is and then I have a
+3683.579 4.201 local repository what if I want to make
+3685.92 4.08 some changes how do I do that how do I
+3687.78 3.36 push the code from my machine to the
+3690.0 3.66 local repository or to the remote
+3691.14 4.32 Repository now to do that what I will do
+3693.66 4.74 is I will open my terminal
+3695.46 5.28 so my terminal was already opened it's
+3698.4 4.32 clean first of all let me create a
+3700.74 2.94 folder here and let me name this folder
+3702.72 2.339 as
+3703.68 3.06 git course
+3705.059 4.141 okay say an import with my remote
+3706.74 4.74 repository and then I will jump into
+3709.2 4.98 this particular folder the git course
+3711.48 4.26 and I will say I will check do we have
+3714.18 3.78 any folder here you can see I don't have
+3715.74 6.0 any files or folders okay first of all
+3717.96 7.139 I'm into Mac so LS there's no folder
+3721.74 5.16 that's cool now what I do is I want to
+3725.099 3.301 create some files now first of all we
+3726.9 4.439 don't have any file let me create one
+3728.4 4.86 file now it can be any file okay and you
+3731.339 4.141 can simply follow this steps here to do
+3733.26 3.42 that I want to push one file from my
+3735.48 3.24 local repository to the remote
+3736.68 4.5 repository and you can simply copy paste
+3738.72 4.02 and run it will work but let's try it
+3741.18 3.48 one by one just to understand how it
+3742.74 4.379 works so the first thing that we do is
+3744.66 3.72 we will be using we will be getting a
+3747.119 3.901 file which is readme file remember we
+3748.38 4.32 have talked about redmi so to do that I
+3751.02 4.799 will say eco
+3752.7 6.599 and I will push some data here so I can
+3755.819 5.641 say git course demo and I can type
+3759.299 4.56 multiple lines of data here but let's
+3761.46 5.04 say we have single line and then I want
+3763.859 4.26 to create a file called readme basically
+3766.5 3.24 this is a command
+3768.119 3.48 Eco is a command using which you can
+3769.74 2.879 Echo this message to this particular
+3771.599 4.26 file
+3772.619 5.881 so we will say readme.md now MD is
+3775.859 4.921 basically stands for markdown if you
+3778.5 3.42 have a design some redmi file and it
+3780.78 3.539 should look good so you can use
+3781.92 4.8 something called markdown okay and you
+3784.319 4.5 can see if I say LS now we got a file
+3786.72 4.82 created and if you want to see the
+3788.819 5.101 content of that file you can say
+3791.54 5.079 readme.md and you can see this is the
+3793.92 5.04 content so using cat command I can just
+3796.619 3.18 see the content so I do have a Content
+3798.96 2.879 now
+3799.799 3.421 so LS we got a file
+3801.839 3.24 the next thing you have to do is we need
+3803.22 4.2 to create a git repository the local
+3805.079 4.441 copy okay the local git which is not
+3807.42 3.899 done yet because we got a folder but
+3809.52 5.099 it's not get enabled
+3811.319 5.221 so to do that I will say get init and we
+3814.619 4.021 can follow the steps or otherwise we can
+3816.54 3.539 also create a branch name because by
+3818.64 3.24 default it will create master right we
+3820.079 4.141 don't want Master we want main but let's
+3821.88 4.56 follow the same steps so you can say it
+3824.22 4.68 has created a empty repository and
+3826.44 4.679 that's done so let me clear this we got
+3828.9 4.74 a repository as well if I say LS you can
+3831.119 4.44 see we got we should have got the folder
+3833.64 3.78 I think it's hidden so yeah so you can
+3835.559 4.02 see we got a folder here which is dot
+3837.42 3.6 get now this is where it will have uh
+3839.579 4.02 all the folders which we have talked
+3841.02 4.559 about before so this is done the next
+3843.599 5.041 step is we need to add because if you
+3845.579 5.581 say git status now we got a file but
+3848.64 4.62 that is not a path so it is a untracked
+3851.16 3.659 remember we have a working copy then we
+3853.26 3.66 have to Stage it now how do we stage it
+3854.819 3.121 we have done that before so it's a git
+3856.92 6.24 add
+3857.94 7.2 read me dot MD so now we have staged it
+3863.16 4.919 now after staging if you say git status
+3865.14 5.58 you can see we got a new file and this
+3868.079 4.02 will be committed now how do we commit
+3870.72 3.48 it's very simple
+3872.099 3.901 you will say get okay I'm just trying to
+3874.2 3.24 copy the code from here okay so on the
+3876.0 3.599 left hand side you can see
+3877.44 5.22 we have the code or the commands we'll
+3879.599 5.52 say git commit will mention hyphen M for
+3882.66 5.159 the message and here I will say first
+3885.119 4.381 commit enter so that's my first commit
+3887.819 3.3 right but again this commit is happening
+3889.5 3.9 in my local machine
+3891.119 4.561 so that's done next we have to create a
+3893.4 3.719 branch so I will say git branch
+3895.68 3.659 okay now why do we have to create a
+3897.119 4.381 branch here the thing is by default we
+3899.339 4.201 got a master Branch right and we have
+3901.5 3.72 mentioned before let's not use Master
+3903.54 3.779 let's use something called Main and
+3905.22 3.48 that's what GitHub is also promoting so
+3907.319 3.421 I will say Main
+3908.7 4.44 enter and you can see now we got a main
+3910.74 5.099 branch okay now once we got a main
+3913.14 4.74 branch what next it's time to connect to
+3915.839 4.5 the remote repository now this is a
+3917.88 4.8 local repository we need to create a
+3920.339 4.02 remote repository but the problem is
+3922.68 3.54 how will you connect your local
+3924.359 3.48 depository to the remote repository now
+3926.22 4.619 that's a big issue so we have to search
+3927.839 5.28 something called an SSH now how do I do
+3930.839 5.401 that now basically there are two options
+3933.119 4.5 one is https you can also get the steps
+3936.24 3.96 here and you can see something is
+3937.619 5.101 changing here if I click on SSH things
+3940.2 4.74 are changing the advantage of using so
+3942.72 5.46 first of all when we use https basically
+3944.94 5.94 to push anyone can push right this is my
+3948.18 4.56 remote repository you can also push how
+3950.88 3.66 do I know that who should who should be
+3952.74 4.98 allowed now that's where when we use
+3954.54 5.1 https it will ask you to log in so if
+3957.72 3.42 you are saying you are Naveen how do you
+3959.64 4.26 prove yourself so it you have to login
+3961.14 4.679 otherwise you can use SSH the problem
+3963.9 3.48 with login is you have to log in every
+3965.819 2.341 time what if you can just set up your
+3967.38 3.36 machine
+3968.16 3.659 once with a key and then every time you
+3970.74 2.64 do something it will automatically
+3971.819 3.54 detect who you are and that's why you
+3973.38 3.54 have to set up the SSH now the way you
+3975.359 4.98 can do that is by using very simple
+3976.92 5.54 thing which is SSH Keygen hyphen o this
+3980.339 6.841 is the command you have to use SSH
+3982.46 6.52 hyphen Keygen space hyphen o now this is
+3987.18 3.119 the only time you have to do it okay you
+3988.98 3.24 have to do it only once it's not like
+3990.299 3.54 for everything you have to do it for one
+3992.22 5.639 machine you have to do it only once okay
+3993.839 7.441 I just messed up there so I will say SSH
+3997.859 5.76 kitchen hyphen o enter and you can see
+4001.28 3.66 now it says generating a public and
+4003.619 2.881 private key basically that's how you
+4004.94 3.659 create a key to communicate between the
+4006.5 3.9 client I mean your local copy and the
+4008.599 3.361 server so it says enter the file name in
+4010.4 3.419 which the file will be stored I don't
+4011.96 3.659 want to mention anything here it will go
+4013.819 3.421 for a default name I will say enter oh
+4015.619 4.261 the thing is in my machine already have
+4017.24 4.26 this created I will just overwrite I
+4019.88 2.82 will say yes you will not get this
+4021.5 2.579 option if you don't if you have not done
+4022.7 3.119 this setup before now it will ask you
+4024.079 3.361 for a passphrase I don't want to mention
+4025.819 4.381 any plus phase it's like a password
+4027.44 5.82 enter don't want to mention anything and
+4030.2 5.28 done I got my file created now where
+4033.26 4.98 will I find this file what I will do is
+4035.48 6.18 I will just go back to my folder and if
+4038.24 5.28 I say LS in fact LS hyphen a okay first
+4041.66 3.899 of all we got SSH created this is not
+4043.52 4.74 the SSH okay let's see the SSH where it
+4045.559 3.901 is so if you can see this is the folder
+4048.26 2.579 which we are concerned about this is
+4049.46 3.899 where it went
+4050.839 6.24 so I will just go to that folder using
+4053.359 6.48 CD space dot SSH enter
+4057.079 5.901 let me just clear the screen and now if
+4059.839 5.041 I say LS hyphen a you can see we got our
+4062.98 5.7 published here
+4064.88 5.82 let me open that so I will say get ID
+4068.68 4.06 dot Pub
+4070.7 4.139 and we got the key right this is where
+4072.74 4.859 you will find your key in the pub
+4074.839 4.141 now where do I use this key we got the
+4077.599 2.46 key here right but how do I use it it's
+4078.98 3.18 very simple
+4080.059 5.04 you can just
+4082.16 4.86 copy the entire key
+4085.099 3.72 okay copying is done where to paste it
+4087.02 4.799 it's very simple
+4088.819 5.04 if you can see here let me
+4091.819 5.46 click on here I don't want to lose this
+4093.859 5.701 page so I will just open a new tab using
+4097.279 3.841 the controller command button I will
+4099.56 3.0 click on settings and you can see
+4101.12 3.719 setting is open here
+4102.56 4.619 and then if you scroll down there's an
+4104.839 4.741 option of SSH
+4107.179 5.221 and if you see this I already have some
+4109.58 5.04 keys here ignore that I will click on
+4112.4 5.04 new SSH key
+4114.62 4.28 I will give a title to it git course one
+4117.44 4.68 because I already have one before
+4118.9 6.16 another paste your key that's it and
+4122.12 5.699 click on ADD SSH key and now your client
+4125.06 4.38 and your server is connected so
+4127.819 3.181 connected is not does not mean it's
+4129.44 3.66 continuously connected every time you
+4131.0 3.96 push something it will verify okay it's
+4133.1 3.84 coming from a right person because the I
+4134.96 4.739 can see the SSH key which is mentioned
+4136.94 4.14 here and on the local machine they are
+4139.699 3.66 same
+4141.08 4.32 okay so now once we have done that in
+4143.359 4.081 the terminal let's go back to our folder
+4145.4 3.56 so which folder we were working with I
+4147.44 4.919 think git
+4148.96 4.779 goes yeah and if I say LS hyphen a just
+4152.359 3.36 to verify and you can see we have the
+4153.739 4.62 same thing now if I go back to my steps
+4155.719 4.98 so we are done with this step right
+4158.359 5.761 branching now we'll just use this
+4160.699 6.241 particular one and that too for SSH okay
+4164.12 4.86 so I will just copy this and paste it
+4166.94 4.02 here now what we are trying to say in
+4168.98 4.56 this is we are doing git remote because
+4170.96 5.52 that's a remote repository of GitHub we
+4173.54 3.96 are adding a origin with this link so
+4176.48 3.06 this is where we are trying to connect
+4177.5 3.779 and when you say enter connection done
+4179.54 3.6 okay so basically we are trying to map
+4181.279 4.02 it once you have mapped it now we have
+4183.14 3.84 to move this file which is in the local
+4185.299 5.221 repository because this is in local
+4186.98 5.58 right the remote is empty at this point
+4190.52 4.38 so what I will do is to push the code
+4192.56 4.5 just copy this paste so what we are
+4194.9 3.839 saying here we are saying git push push
+4197.06 4.619 means we are pushing the data from the
+4198.739 4.681 local copy to the remote copy and then
+4201.679 4.201 we have we are also mentioning that
+4203.42 4.74 there's a different branch and uh
+4205.88 4.62 position so basically U is Upstream
+4208.16 3.6 setup set up the upstream and then the
+4210.5 2.46 branch name is main okay this is
+4211.76 3.419 something you have to remember sometimes
+4212.96 3.779 you will mess up with Main and master if
+4215.179 3.301 you're referring to some other documents
+4216.739 3.301 in the earlier documents earlier
+4218.48 4.199 versions people used to mention master
+4220.04 4.139 and now we are mentioning main so you
+4222.679 3.781 might get confused there
+4224.179 3.661 and if I say enter it is pushing the
+4226.46 3.239 code okay it will take some time but
+4227.84 4.379 before posting it is verifying hey the
+4229.699 5.401 key is there is the right key yes I
+4232.219 4.141 think I I only have one key here enter
+4235.1 3.72 and done
+4236.36 5.6 the pushing is done that's what it says
+4238.82 6.66 uh it says counting objects done total
+4241.96 6.1 uh done set up to track okay looks like
+4245.48 5.4 everything is done how do I verify I can
+4248.06 6.0 simply refresh my page
+4250.88 5.22 and we got it now this is a file which
+4254.06 4.5 we created in the local machine right
+4256.1 4.079 and if I open this you can see this is
+4258.56 4.139 the data we got
+4260.179 4.621 okay now this looks cool right so
+4262.699 4.621 basically we were able to push the
+4264.8 3.96 repository from the local machine to the
+4267.32 3.12 GitHub and every time you work on a
+4268.76 3.419 project now these are the steps you have
+4270.44 5.279 to follow so basically we were able to
+4272.179 5.401 push the code from our local repository
+4275.719 3.361 to the remote repository right and then
+4277.58 4.02 we followed some steps and it is done
+4279.08 4.619 now that was your first commit right but
+4281.6 3.9 what if you want to do some more you
+4283.699 3.661 want to build the entire project and you
+4285.5 3.239 want to push of course you will not do
+4287.36 3.6 it from normal command prompt you will
+4288.739 4.92 be using some IDE to build your project
+4290.96 5.46 now this can be for Normal book writing
+4293.659 5.821 as well or making a video script as well
+4296.42 4.5 but let's stick to vs code here so of
+4299.48 3.78 course you can use any ID for that
+4300.92 3.72 matter or any editor so if you're using
+4303.26 4.68 a normal notepad of course you have to
+4304.64 6.539 use a terminal command prompt external
+4307.94 5.1 to your editor but since in vs code we
+4311.179 4.201 have created editor as well and then we
+4313.04 4.26 got terminal so what I will do is first
+4315.38 4.14 of all if I want to use vs code I have
+4317.3 5.1 to open that folder now which folder now
+4319.52 5.1 if you go back to terminal this is where
+4322.4 5.46 we are right so if I clear and if I say
+4324.62 5.22 PWD which is present working directory I
+4327.86 5.4 am into this folder which is git so so
+4329.84 5.58 whatever files we have here is into this
+4333.26 4.32 particular folder which is git source
+4335.42 3.66 now I will open that in vs code so I
+4337.58 5.159 will click on file I will say open
+4339.08 5.34 folder Etc Naveen get course open so
+4342.739 3.601 basically I have opened the same folder
+4344.42 3.9 okay so we got that file here right so
+4346.34 4.08 if I open this this has the same content
+4348.32 4.2 which we had earlier but what I will do
+4350.42 3.84 is instead of working on this file let
+4352.52 4.679 me add some more files of at least one
+4354.26 5.939 file so I will say let me say this is my
+4357.199 4.081 user service dot txt now basically let's
+4360.199 3.361 say if you're building an application
+4361.28 3.72 the reason I'm doing txt is because it
+4363.56 4.26 can be any programming language right
+4365.0 4.08 Java python c-sharp it's your choice so
+4367.82 3.66 let's say if you're saying user service
+4369.08 3.84 we are building an application where I
+4371.48 3.96 want to do something with user service
+4372.92 4.739 maybe I want to accept user data I want
+4375.44 4.68 to process some data on it so let's say
+4377.659 5.281 user service and here I will say get the
+4380.12 5.34 user data so that's it nothing fancy
+4382.94 4.38 just one line of code in fact this can
+4385.46 3.54 be a normal programming code as well but
+4387.32 4.62 just to keep it simple for all the
+4389.0 4.92 languages we are using a normal text so
+4391.94 4.62 we are saying get the user data and save
+4393.92 4.56 now if you see this this particular file
+4396.56 4.8 is there in your working directory it is
+4398.48 5.1 not even that in git and also this file
+4401.36 4.379 is not even there on the GitHub this is
+4403.58 3.24 what we want to push on GitHub how will
+4405.739 4.561 I do that
+4406.82 4.98 so let's go back to vs code and if you
+4410.3 3.78 want to do any any of this we have to
+4411.8 4.5 say new terminal and we've got a
+4414.08 4.619 terminal here and here basically we have
+4416.3 4.2 to say git status now when you say git
+4418.699 3.901 status you can say we have a git
+4420.5 4.86 repository inside this particular folder
+4422.6 5.82 but this file which is user service dot
+4425.36 4.62 txt it is untracked we need to track it
+4428.42 5.34 so how will you do it it's very simple
+4429.98 5.46 uh to track it we can simply say get add
+4433.76 5.28 and you can mention the file which is
+4435.44 6.239 user service.txt enter and now we have
+4439.04 4.56 added that into staging area How will I
+4441.679 4.5 know that let's say git status and you
+4443.6 5.04 can see now it's into staging area and
+4446.179 5.04 we can commit it how will I commit get
+4448.64 4.2 you know at least I think at this point
+4451.219 4.381 you remember all the commands so it's a
+4452.84 6.72 git commit hyphen M and you can pass a
+4455.6 6.48 message so you can say user service
+4459.56 4.139 created now it's always a good idea to
+4462.08 2.88 type at the same time when you're
+4463.699 4.201 watching this video so that you will
+4464.96 5.16 know what is happening right so here if
+4467.9 4.38 I say get commit and now we have
+4470.12 4.619 committed it and that's why you can see
+4472.28 4.98 that you here went off now
+4474.739 5.341 okay committing done but does that mean
+4477.26 4.32 it is available on GitHub no we have
+4480.08 3.54 done the commit on the local machine
+4481.58 4.619 right now we need to push it on the
+4483.62 5.579 GitHub and for that we have to remember
+4486.199 6.241 that command git push so let's use git
+4489.199 5.221 push and then you have to mention origin
+4492.44 4.259 so basically for pushing you have to say
+4494.42 4.68 push and the origin is the URL remember
+4496.699 4.921 the URL which we have used before that
+4499.1 5.099 is what is representing this origin and
+4501.62 4.32 then you have to mention the branch the
+4504.199 4.201 branch is main we are pushing on Main
+4505.94 5.4 Branch I will say enter it will take
+4508.4 5.759 some time and done you can see pushing
+4511.34 4.74 is done so from your local machine to
+4514.159 3.06 the GitHub let's verify go back to
+4516.08 3.659 GitHub now
+4517.219 4.921 we're still not here refresh
+4519.739 5.041 and you got it so you can see we got
+4522.14 4.019 this file which is userservice.txt and
+4524.78 3.0 if you open this
+4526.159 4.921 you can see we got the data which it
+4527.78 5.34 says get user data it is available now
+4531.08 4.38 right so let's get back to our project
+4533.12 5.34 this is these are the two files we have
+4535.46 4.44 and if You observe we have two commits
+4538.46 3.3 here now what are the two comments if I
+4539.9 3.66 open this two commits here
+4541.76 4.04 this is the first commit which we have
+4543.56 5.4 done where we created one five which is
+4545.8 5.26 readme.md and this is your second commit
+4548.96 4.14 which is user service created
+4551.06 3.9 now you can actually at any given point
+4553.1 3.18 you can go back to the earlier version
+4554.96 2.759 where you don't have let's say if you
+4556.28 4.379 don't want user service
+4557.719 4.921 I can click on this particular file and
+4560.659 3.901 it will give you the status of that
+4562.64 4.44 commit so in the uh in the first commit
+4564.56 4.679 we had only one file right that's what
+4567.08 4.76 you can do so it's it's fun to navigate
+4569.239 5.101 between different commits if you want to
+4571.84 4.78 go back to any commit and if you want to
+4574.34 3.66 see what changes you have made uh in
+4576.62 4.02 fact you can click on the file as well
+4578.0 4.56 to see the changes so if I go back here
+4580.64 2.94 and if I mention if I go back to any
+4582.56 3.48 file
+4583.58 4.139 okay let's go to commit and click on any
+4586.04 3.72 commit here so it will mention what
+4587.719 4.321 changes you have made so we have created
+4589.76 4.2 this file which is readme.md and this is
+4592.04 4.56 the change you have made in fact you can
+4593.96 6.0 go to the other commit as well which is
+4596.6 4.92 here and you can see what changes you
+4599.96 3.719 have made of course it makes sense when
+4601.52 4.08 you have multiple files and you can see
+4603.679 4.621 all the files which are changed okay so
+4605.6 4.559 that's how basically you add your files
+4608.3 4.32 to the remote repository let's talk
+4610.159 4.261 about tags now what is tag we'll talk
+4612.62 4.26 about that later but before that I just
+4614.42 4.56 want to show you one more thing which is
+4616.88 3.779 about this remote now if you remember in
+4618.98 3.9 the earlier video we have done this push
+4620.659 4.201 right so from the local machine we were
+4622.88 3.96 able to send the data to This Server
+4624.86 4.68 right so basically we're able to push it
+4626.84 4.379 now it has four things first of all we
+4629.54 3.96 have a git command of course because we
+4631.219 4.801 are using gate tool next we have Push
+4633.5 4.98 basically we are pushing the code right
+4636.02 4.62 whatever data you have and then we have
+4638.48 3.54 something called An Origin here okay so
+4640.64 3.3 we'll talk about origin because that's
+4642.02 3.42 very important for this part then we
+4643.94 3.66 have we are specifying the branch name
+4645.44 3.84 so it can be main it can be mastered or
+4647.6 4.079 any other branch which you create
+4649.28 4.439 let's talk about this origin why it has
+4651.679 3.961 to be always origin of course we have
+4653.719 4.141 done origin but it can be different as
+4655.64 4.98 well the thing is for this particular
+4657.86 4.62 repository what we have done is when we
+4660.62 6.119 talked about the remote server we only
+4662.48 6.42 have one example if I say get a remote
+4666.739 4.5 hyphen V so this this is the command
+4668.9 4.86 using which you can see which is your
+4671.239 4.561 origin so we can have a origin for fetch
+4673.76 4.14 so from this server to client this is
+4675.8 3.72 the link we have to use and from client
+4677.9 3.72 to server again we have the same link
+4679.52 4.199 because we only have one remote repo
+4681.62 3.66 there and by default the name is origin
+4683.719 3.661 of course this can be any name you can
+4685.28 3.78 change it as well so you can rename it
+4687.38 3.66 or you can connect a different
+4689.06 3.78 repositories not just one and you can
+4691.04 3.48 pull and push to any other repositories
+4692.84 3.18 if you want the only thing you have to
+4694.52 3.06 do is you have to change this one so
+4696.02 3.06 instead of pushing it to this then you
+4697.58 3.0 can push it to some somewhere else okay
+4699.08 4.2 so keeping that aside now let's talk
+4700.58 4.38 about tags now basically uh we have a
+4703.28 3.899 concept of tagging now if you have
+4704.96 3.84 observed every software which we use it
+4707.179 4.621 has a version number example I'm using
+4708.8 7.08 vs code here and if I go to help and if
+4711.8 6.54 I click on or not not help here because
+4715.88 5.22 in Windows you will get that in help in
+4718.34 5.339 Mac you will get that in the about so if
+4721.1 4.38 you go to about vs code here so you can
+4723.679 3.901 see it is giving you a version number
+4725.48 3.96 here so every time you you down to the
+4727.58 3.659 software you will get a particular
+4729.44 4.02 version of course you will also get the
+4731.239 4.5 updates for it so you can simply go here
+4733.46 3.84 and I can check for the updates so you
+4735.739 3.301 can see it says restart to update but I
+4737.3 3.24 don't want to restart now but you will
+4739.04 3.659 also get update there so the current
+4740.54 4.139 this is the current version and this is
+4742.699 4.321 a commit now this looks weird right why
+4744.679 4.5 do we have a commit in the about that
+4747.02 3.24 will say in some time and also observe
+4749.179 2.52 some things because in the next video
+4750.26 3.419 we'll talk about this thing in detail
+4751.699 3.96 okay so we have electron we have
+4753.679 3.601 chromium we have node.js and all these
+4755.659 3.901 have versions okay so we'll talk about
+4757.28 4.26 it in some time but important is we have
+4759.56 4.2 a version here now this version is
+4761.54 4.139 basically a tag so let's say if you're
+4763.76 3.899 working on a project and then you have
+4765.679 4.441 done several comments and now you think
+4767.659 4.981 okay I'm all set to release my next
+4770.12 4.38 version so you can give a tag to it and
+4772.64 4.14 then one stack that once that version is
+4774.5 4.26 done you can go for the next version so
+4776.78 3.84 basically how do you give this tag the
+4778.76 3.6 version number to each commit so not
+4780.62 3.72 exactly each commit let's say you have
+4782.36 3.66 done 10 commits and then now you think
+4784.34 3.24 okay the software is up and running we
+4786.02 4.26 can publish this but particular product
+4787.58 5.34 to the users we can give it a tag first
+4790.28 4.68 of all how do I check how many tags I
+4792.92 3.84 have for this project now the way you
+4794.96 4.68 can do that is by using something called
+4796.76 4.68 get tag and when you say enter it will
+4799.64 3.599 show you all the tags which are given
+4801.44 3.96 till now for this project and this is
+4803.239 4.621 empty is because we have not given any
+4805.4 4.259 tag so let's give our first tag here how
+4807.86 4.62 will I do that it's very simple you can
+4809.659 4.56 say get tag and then when you say
+4812.48 3.78 tagging there are two options here one
+4814.219 4.44 you can use the annotated tagging or you
+4816.26 4.5 can use lightweight tagging now if you
+4818.659 3.601 really want to release this to the users
+4820.76 4.5 and if you want to give more information
+4822.26 5.76 about the user I mean who is committing
+4825.26 5.64 it or who owns it so if you want all
+4828.02 4.08 those information use annotated okay
+4830.9 2.64 otherwise you can go for lightweight
+4832.1 4.02 which we're not going to see so let's
+4833.54 4.38 see annotated here where every version
+4836.12 5.22 will have different uh information about
+4837.92 6.0 it so for that we have to use a hyphen a
+4841.34 4.62 as a option for the annotated one and
+4843.92 3.36 then now you can mention your tag number
+4845.96 2.4 so basically these are your budget
+4847.28 3.36 number so there are different ways of
+4848.36 5.4 using version number some people simply
+4850.64 6.84 go with 1.0 like this version or you can
+4853.76 5.16 also mention V here so V 1.0 so we can
+4857.48 3.54 go with this particular one which is V
+4858.92 3.18 1.0 this is our version which you are
+4861.02 3.24 specifying here
+4862.1 4.44 and then you can also provide a message
+4864.26 4.2 in fact we need to do that otherwise git
+4866.54 3.36 will open a editor which will where you
+4868.46 4.38 have to mention this otherwise let's say
+4869.9 4.5 m to give the message and I can say
+4872.84 3.72 first
+4874.4 3.779 release so you can give something like
+4876.56 3.9 this as a message and when you say enter
+4878.179 4.441 now tagging is done so you got the first
+4880.46 4.08 stack now if you want to check you can
+4882.62 4.2 say git tag again and you can say we got
+4884.54 4.56 one tag here and of course uh you can
+4886.82 5.879 also see detailed information so you can
+4889.1 4.98 say git show V 1.0 now this will give
+4892.699 3.841 you description about this particular
+4894.08 3.78 tag and when you say enter this is what
+4896.54 4.32 I was talking about so for this
+4897.86 6.299 particular tag here uh this is the
+4900.86 4.74 tagger who has given the tag and then so
+4904.159 3.421 that's my name and my email ID which is
+4905.6 3.84 hidden uh so the commits which I have
+4907.58 2.88 done here is this is the commit which we
+4909.44 3.54 have done
+4910.46 4.14 and this is it so I have done this so
+4912.98 4.8 okay first of all let me just check all
+4914.6 5.46 the thing done okay so if you see here
+4917.78 4.32 we have done the tagging right but the
+4920.06 4.26 tagging is available only in my machine
+4922.1 4.02 in the local copy so every time you push
+4924.32 5.28 example let's say if I do some changes
+4926.12 6.18 here uh I want to say this is get user
+4929.6 4.68 data and I will say process so basically
+4932.3 4.859 we have done some changes right
+4934.28 5.399 process the data so we have made some
+4937.159 4.741 change to the software and now every
+4939.679 4.56 time you make a change you can say git
+4941.9 4.68 status you will get the status what's
+4944.239 4.621 the next step okay so we have to add so
+4946.58 4.92 we have to say git add user service.txt
+4948.86 4.74 what next again we can say git status
+4951.5 3.96 uh it says
+4953.6 4.619 now we can do the commit let's do the
+4955.46 5.16 commit here so we'll say get commit
+4958.219 4.261 hyphen M and you can give a message now
+4960.62 5.88 I can say
+4962.48 5.52 uh processing user data so we have added
+4966.5 3.12 the new feature right so let's do that
+4968.0 3.54 and of course in the real life project
+4969.62 3.72 it will be a bigger code which just
+4971.54 3.48 trying to keep it simple enter
+4973.34 3.06 committing done but the commit has
+4975.02 3.719 happened only in local machine we have
+4976.4 4.799 not done on the remote because if you
+4978.739 3.901 see this is a local one right if you go
+4981.199 5.281 back to your remote
+4982.64 6.0 uh and if I go back to git course
+4986.48 3.54 you can see we have done the commit
+4988.64 4.38 yesterday so basically I'm recording the
+4990.02 5.82 video One in a day so we have not done
+4993.02 4.199 the commit here so if I open this we
+4995.84 3.78 only have get user data we don't have
+4997.219 4.921 losses user data so we have to push
+4999.62 6.119 right how will I push from my command
+5002.14 5.76 line uh I can say get push
+5005.739 4.561 origin main right this is the command
+5007.9 5.339 you have to use and when you say enter
+5010.3 5.939 so it will try to push now and that's
+5013.239 5.401 done so pushing on the server done let's
+5016.239 4.44 go back and refresh
+5018.64 3.78 so you can see it says now
+5020.679 4.201 and this is a new commit which we have
+5022.42 3.96 done and if you see the data we have
+5024.88 3.779 added new line okay so this is working
+5026.38 4.44 right but then if You observe on the
+5028.659 4.981 server there's no tags here you can see
+5030.82 4.859 Zero tags in fact we before the commit
+5033.64 4.079 we have created the tag in fact you know
+5035.679 4.081 after the commit we have done the
+5037.719 5.341 changes right we should create a new tag
+5039.76 6.18 here now which is we a 1.1 this is a new
+5043.06 4.98 tag and we'll say a message
+5045.94 5.7 we can also do um daily release right
+5048.04 5.4 27th June release
+5051.64 3.539 so normally you know a lot of companies
+5053.44 4.44 that release their product in six months
+5055.179 4.321 or one month let me do it every day so I
+5057.88 3.54 will say enter now so we got a new tag
+5059.5 4.44 How will I know that we have different
+5061.42 4.319 tags here so we have seen the command
+5063.94 4.68 right which is git tag now you can see
+5065.739 5.101 we have two tags but if you go back to
+5068.62 5.64 this server we it shows zero tags here
+5070.84 6.06 so if I refresh zero tags so what way to
+5074.26 5.459 do is when to push the tags as well
+5076.9 4.56 separately we cannot simply push the
+5079.719 3.0 code and it will have a tag no you will
+5081.46 4.02 not get that
+5082.719 5.041 so what I will do is I will say get push
+5085.48 4.14 origin and we have to mention the tag so
+5087.76 3.959 let's push the 1.0
+5089.62 4.98 and that's done so you can see the new
+5091.719 5.281 tag is created and if I refresh
+5094.6 5.4 you can see we got one tag and if I
+5097.0 4.98 click on this tag this is a version one
+5100.0 3.9 and if I see
+5101.98 3.9 uh this so in fact you can download the
+5103.9 4.5 source code and it happened four minutes
+5105.88 4.319 before right okay so it will give me the
+5108.4 3.36 source code itself okay we don't need
+5110.199 3.781 the source code okay but you got the
+5111.76 4.08 idea right so basically we can jump
+5113.98 4.32 between different codes based on the
+5115.84 4.2 tags as well and now let's see let's
+5118.3 5.1 also push the
+5120.04 4.98 version 1.1 so we got two different tags
+5123.4 3.96 and if I refresh
+5125.02 3.9 you can say we got two tags here and
+5127.36 2.7 based on which tag you have you can
+5128.92 3.36 download it so this is five minutes
+5130.06 3.84 before and this is one made before so
+5132.28 4.379 different tag will have different codes
+5133.9 5.22 okay so you can see this is first it is
+5136.659 4.56 and this is the 27th June release
+5139.12 4.92 awesome so this is working this is how
+5141.219 4.861 you basically work with the tags so till
+5144.04 4.679 this point we were able to work with our
+5146.08 4.38 own repository on GitHub and local as
+5148.719 3.841 well but what if you want to work with
+5150.46 3.719 some other repository maybe you want to
+5152.56 3.72 clone the code and you want to see what
+5154.179 4.261 is happening there or maybe you want to
+5156.28 4.5 push or you maybe you want to do some
+5158.44 4.08 changes and use it for yourself or push
+5160.78 3.959 it to this remote repository again how
+5162.52 4.679 will you do it now first of all let's go
+5164.739 4.98 let's find some project now since we are
+5167.199 5.341 using vs code which is open source so
+5169.719 4.92 what we can do is we can go to GitHub so
+5172.54 4.56 you can do a search here which is vs
+5174.639 4.201 code now if you search for vs code you
+5177.1 4.92 can see you will find the source code
+5178.84 5.22 this is the source code which has so
+5182.02 3.9 many stars here and this is from
+5184.06 5.4 Microsoft so let's use it
+5185.92 5.819 now this is the actual source code of vs
+5189.46 4.86 code now the version which we are using
+5191.739 3.661 is 1.79 remember when we were doing the
+5194.32 3.96 last video
+5195.4 6.739 if you go back
+5198.28 7.379 code about so this is the version right
+5202.139 6.821 1.79.0 so the current version they have
+5205.659 4.861 is what so you know every project will
+5208.96 2.94 have a readme file you can open readme
+5210.52 3.659 file which is here
+5211.9 4.86 it will have some updates
+5214.179 4.201 right otherwise you can just go here and
+5216.76 2.939 you can look at the commit history as
+5218.38 4.2 well
+5219.699 5.341 so this is the commit history and you
+5222.58 4.5 will also find tags here okay so if you
+5225.04 4.5 go back to code
+5227.08 4.079 and if you see tags
+5229.54 2.88 so you can say this is the latest
+5231.159 3.181 version
+5232.42 3.96 that's verified
+5234.34 4.379 which is two weeks back and this is a
+5236.38 5.58 version which I'm using 1.7
+5238.719 5.041 0.0 and if you want to see the commits
+5241.96 3.5 of it so there's so many comments for
+5243.76 4.2 this particular tag
+5245.46 4.239 and you can also see the you can also
+5247.96 3.06 this see the numbers so how will I how
+5249.699 3.301 will I get this source code so if I go
+5251.02 3.9 back to vs code and we have seen that
+5253.0 3.96 right so if you want this source code of
+5254.92 4.799 course this will be a bulky project so
+5256.96 4.259 if I click here you can see this is
+5259.719 3.0 where local this is where you can get
+5261.219 3.361 the thing you can also download this Z
+5262.719 5.221 but we don't want to do that what I can
+5264.58 5.22 do is I can use https or SSH and of
+5267.94 5.1 course I will not be pushing any code so
+5269.8 5.64 https works for me I will just copy this
+5273.04 4.139 and go back to in fact I will not do
+5275.44 3.779 that in vs code let me use a normal
+5277.179 2.881 terminal so I will go back to terminal
+5279.219 3.361 here
+5280.06 4.079 and I will say let's go back to the
+5282.58 4.02 folder
+5284.139 4.801 okay let me see where I am so I'm into
+5286.6 4.5 my home folder let me just clear the
+5288.94 5.58 screen and this is where I will say git
+5291.1 5.579 clone I will mention that particular URL
+5294.52 4.92 the moment you say enter it will
+5296.679 4.441 download the entire vs code repository
+5299.44 3.54 in your machine so it will take some
+5301.12 5.039 time so basically the entire project
+5302.98 5.4 which we have here we are getting that
+5306.159 3.961 in this machine so vitamin is
+5308.38 4.14 downloading let me see if I can find
+5310.12 5.7 something interesting here so the entire
+5312.52 5.46 vs code is built using typescript two
+5315.82 3.66 percent JavaScript this is also last
+5317.98 4.679 elements here
+5319.48 4.259 and CSS HTML and others
+5322.659 3.661 and you can see the number of
+5323.739 5.221 contributors more than 1800 contributors
+5326.32 4.44 that's great and then there's also
+5328.96 3.36 branches here which we'll see later but
+5330.76 3.6 if you expand this you can see there are
+5332.32 3.419 so many branches here created important
+5334.36 3.06 is the main branch which is the most
+5335.739 3.781 important Branch here okay done so you
+5337.42 4.08 can see I got the vs code and what I
+5339.52 4.32 will do is I will open that vs code in
+5341.5 5.1 my vs code okay this is inception right
+5343.84 4.5 opening up source code in the vs code so
+5346.6 5.82 let me go to vs code and open that
+5348.34 7.5 folder so I will say open folder and in
+5352.42 6.6 Naveen we got vs code open and voila
+5355.84 6.06 this is the entire vs code source code
+5359.02 4.8 right this is the entire code in fact
+5361.9 3.299 you can also verify with the readme this
+5363.82 2.58 is the readme which we had there right
+5365.199 3.121 okay
+5366.4 3.42 now what I want to see I want to get
+5368.32 3.48 some information about it so what I will
+5369.82 4.319 do is I will say terminal and I want to
+5371.8 4.2 know some things from this so basically
+5374.139 4.921 I want to see the log first so when I
+5376.0 5.639 say git log and look at the all the
+5379.06 4.74 commits which happened here so you will
+5381.639 3.781 see their name who has committed it and
+5383.8 3.48 what is the email ID you can see the
+5385.42 4.5 time when it is committed and if you
+5387.28 4.26 Center you will see all the list right
+5389.92 4.02 we got the entire list
+5391.54 4.98 and it's it's it will be huge now if you
+5393.94 5.16 want to come out of this just type Q and
+5396.52 5.1 you are out okay and now what if you
+5399.1 3.9 want to see all the tags I can say git
+5401.62 3.78 tag because now we know the commands
+5403.0 4.159 right and this are the tags so they
+5405.4 5.759 started with zero point
+5407.159 6.06 10.1 and if you go down the latest one
+5411.159 4.201 is
+5413.219 4.061 1.79.2 let's see
+5415.36 4.5 so if you go down
+5417.28 5.64 okay still searching so these are all
+5419.86 6.54 the versions of vs code okay so you can
+5422.92 5.759 see uh 1.9.1 is the last release or they
+5426.4 4.2 have the tags I'm not sure if they have
+5428.679 4.081 publicly released it but they have the
+5430.6 3.78 tags and this is a version which I'm
+5432.76 3.959 using and maybe I want to know more
+5434.38 6.2 about my version which I'm using so what
+5436.719 3.861 I can do is I can say get show
+5441.42 6.04 1.79.0 that that's the version I'm using
+5444.1 7.02 so you can see this particular tag got a
+5447.46 7.08 commit from this particular author
+5451.12 6.059 and on this day oh great and I can also
+5454.54 4.32 see what's what they have done by
+5457.179 3.96 exploring this commit this particular
+5458.86 3.72 commit okay you can see I got the commit
+5461.139 3.421 number now so this was I was looking for
+5462.58 5.099 it right so I don't know why I was not
+5464.56 4.679 able to find that but yeah it's here in
+5467.679 3.54 fact when you say git log you can see
+5469.239 4.621 there are a lot of blogs here right now
+5471.219 5.041 if you want to print only one I mean the
+5473.86 5.16 commit number and just some information
+5476.26 6.18 there's one more way you can say git log
+5479.02 4.98 pretty equal to one line so what will
+5482.44 4.199 happen is by comma by entering this
+5484.0 5.58 command which is git log pretty one line
+5486.639 4.681 you will see the commits and the the
+5489.58 3.599 message there and this is how you
+5491.32 3.66 message right so you will also get an
+5493.179 4.081 example by looking at other people's
+5494.98 3.9 commit how they message something so you
+5497.26 2.399 can see we also have some Number issue
+5498.88 4.56 number
+5499.659 5.401 and upgrade numbers so it was always
+5503.44 3.9 helpful to look at other people's
+5505.06 4.8 comments or messages so that you will
+5507.34 4.799 know how you should be writing your
+5509.86 3.839 messages now what if you want to make
+5512.139 3.361 some changes let's say if I go back to
+5513.699 3.781 any of the file this is the first time
+5515.5 4.5 I'm downloading the vs code on on this
+5517.48 4.62 machine or or exploring the vs code
+5520.0 3.32 source code I can just go get into
+5522.1 5.039 source code
+5523.32 7.3 and vs let's say code
+5527.139 5.221 there is some node code here okay so
+5530.62 3.119 let's say in this particular file if I
+5532.36 3.66 want to make some changes I'm not sure
+5533.739 5.041 will it work if I make a change but if I
+5536.02 4.74 make some change let's say uh this is
+5538.78 4.98 anything where I can type any message
+5540.76 6.899 here an existing message or let's say I
+5543.76 5.939 just want to say hey uh on Windows
+5547.659 4.201 let's say I give a colon and maybe I
+5549.699 3.96 have done a very big upgrade to this
+5551.86 3.24 particular project now how will I push
+5553.659 2.881 it of course you have to commit in your
+5555.1 3.72 local machine first
+5556.54 4.619 so what you will do is you say if you
+5558.82 4.14 say get status and you can see that I
+5561.159 4.261 have changed one file this is a file we
+5562.96 4.92 have which we have changed a cli.ts and
+5565.42 4.259 if you want to you have to add it first
+5567.88 4.319 you have to say CLI
+5569.679 4.741 dot TS okay so first of all you have to
+5572.199 3.721 get the path right you have to go to
+5574.42 3.42 that particular path and then you have
+5575.92 4.92 to say commit so if I say get status
+5577.84 5.339 again this is the path which you have to
+5580.84 3.66 go for so I will just copy this it's a
+5583.179 4.98 git add
+5584.5 6.6 enter so that's the path done and now I
+5588.159 8.04 can simply say commit so git
+5591.1 9.78 commit hyphen M and I will say
+5596.199 6.48 major update and also enter and then the
+5600.88 4.38 commit is done but that's only in my
+5602.679 5.221 local machine okay and now if I want to
+5605.26 4.32 push this to the server let's try what
+5607.9 3.96 happens even if something goes wrong
+5609.58 3.36 we'll see later how do we solve it now
+5611.86 3.9 first of all I want to know the remote
+5612.94 6.42 right because how will I push so remote
+5615.76 5.82 is origin so I will say get push origin
+5619.36 5.279 main I'm just trying to push in the main
+5621.58 4.92 enter and it will ask you for the
+5624.639 3.6 username password the reason it is
+5626.5 5.159 asking me to sign in is because we have
+5628.239 4.621 used https right and if you want to you
+5631.659 3.781 if you don't want to mention username
+5632.86 6.6 password basically we have to use the
+5635.44 6.0 SSH now even if you are logged in it
+5639.46 3.779 will not allow in fact let me just try
+5641.44 3.9 that once again I don't know why I have
+5643.239 4.881 canceled it okay so it's authenticating
+5645.34 6.299 and done so you can see I'm logged in
+5648.12 6.099 but it says permission to Microsoft vs
+5651.639 4.56 code get denied to this particular
+5654.219 4.741 username so I'm not allowed to do that
+5656.199 4.741 right I can basically Fork this project
+5658.96 3.96 or maybe I can just create a branch even
+5660.94 3.54 that is not allowed let's try if I can
+5662.92 3.9 create a branch here
+5664.48 3.719 you can see you cannot create your own
+5666.82 3.66 branch
+5668.199 3.54 right so you're not allowed to do that
+5670.48 3.179 so you have to be a part of a
+5671.739 3.96 contributor here so once you're a
+5673.659 3.901 contributor then you can do that right
+5675.699 3.901 that's how you basically work with the
+5677.56 4.56 projects okay so we have done enough
+5679.6 4.559 talk on this uh we'll try to see how do
+5682.12 3.96 you push in your own project in fact we
+5684.159 3.721 have seen that uh in the upcoming videos
+5686.08 3.599 we also work on branches which will be
+5687.88 3.42 quite fun so yeah that's it from this
+5689.679 3.661 video that we have seen how do you
+5691.3 4.919 download a source code and do some
+5693.34 5.7 experiment with it we'll talk about the
+5696.219 5.041 git Branch now this is a very awesome
+5699.04 4.619 concept which is there in git and this
+5701.26 4.68 is what makes git one of the best
+5703.659 4.861 version control system now what exactly
+5705.94 4.92 branching are how do we use it how do
+5708.52 4.56 you merge two branches and what will
+5710.86 4.92 what make goes wrong when you merge two
+5713.08 4.86 branches we'll try to understand that in
+5715.78 4.14 the next few videos so let's try to
+5717.94 4.02 understand what is branching first and
+5719.92 3.719 for that we need to get back to our
+5721.96 4.86 project now this is what we were doing
+5723.639 6.06 right on vs code uh we were able to get
+5726.82 4.2 the source code from the GitHub but then
+5729.699 3.361 we don't want to work with this of
+5731.02 3.9 course because even if you can do some
+5733.06 4.2 changes I will not be able to push on
+5734.92 4.02 the remote repository so let me go back
+5737.26 3.6 to our repository so I will say open
+5738.94 5.04 recent
+5740.86 4.62 git goes now this is a project which we
+5743.98 3.42 are working right and if You observe you
+5745.48 7.679 only have two files here nothing fancy
+5747.4 8.6 just two files and we got readme.md we
+5753.159 5.101 got user service text okay make sense
+5756.0 4.239 and then uh the first thing you have to
+5758.26 4.56 do is you have to always check get
+5760.239 4.5 status if everything is committed uh you
+5762.82 4.74 don't have anything in the unstage OR
+5764.739 4.801 modified stage so you can see we have
+5767.56 3.06 git status everything is clean so we can
+5769.54 3.9 go forward
+5770.62 5.099 now if you go back to your GitHub and if
+5773.44 3.96 you see we are into git course now so
+5775.719 3.061 basically if you see there are different
+5777.4 3.9 things on the screen one thing
+5778.78 4.919 interesting is we have one branch now
+5781.3 4.5 what exactly this Branch means see the
+5783.699 4.02 thing is whatever you do okay whatever
+5785.8 3.839 work you're doing and you're pushing
+5787.719 5.821 from your client side to server side or
+5789.639 5.701 your remote repository you have a branch
+5793.54 3.179 and it this is going into the main
+5795.34 3.78 branch now this is the name of the
+5796.719 4.741 branch which is Main and by default when
+5799.12 4.86 you create a project of course uh you
+5801.46 3.9 you do get either Master Branch or main
+5803.98 4.199 branch based on which version you're
+5805.36 4.08 using and which tool you're using so you
+5808.179 3.661 have to check this what is your branch
+5809.44 4.199 name first of all so for me it is Main
+5811.84 3.359 and you might have some other Branch
+5813.639 2.761 that's completely fine and there is no
+5815.199 2.881 rule in the world that you should have
+5816.4 3.72 only this Branch name or that Branch
+5818.08 4.44 name you can go with any branch name
+5820.12 4.98 that's your choice but commonly we use
+5822.52 4.619 main nowadays and you can see we have
+5825.1 4.32 one branch that also means we can create
+5827.139 3.841 more branches right so whatever by
+5829.42 3.54 default you're doing that goes into the
+5830.98 4.32 main branch right and if you remember
+5832.96 4.92 when we were pushing the code from the
+5835.3 5.339 git client or The Terminal to This
+5837.88 5.22 Server we were using main as a branch so
+5840.639 4.921 we used to say git push origin main
+5843.1 3.539 right but what if everything is working
+5845.56 2.88 so let's say you have a project
+5846.639 3.721 everything is working and now you want
+5848.44 3.299 to do some experiment now one of the
+5850.36 3.66 thing you can do is you can of course
+5851.739 4.621 you can do experimentary let's say I'm
+5854.02 4.38 happy with my code which is working fine
+5856.36 4.5 and then I want to do some experimental
+5858.4 6.38 code in this user service maybe I want
+5860.86 6.72 to create an avatar for a user
+5864.78 4.72 for user and all these are experimented
+5867.58 4.079 okay I'm not sure how will I do it so
+5869.5 4.08 I'm just trying to add this feature and
+5871.659 3.361 now let's say this is a very bulky code
+5873.58 2.88 and this is not the only file you're
+5875.02 4.199 changing maybe of changing multiple
+5876.46 6.48 files and you thought it would work and
+5879.219 5.821 now it's not working okay and then the
+5882.94 5.219 release which you did to the users the
+5885.04 5.76 earlier version it has some bugs okay
+5888.159 4.441 and how will you solve that bugs now
+5890.8 4.26 because the moment you make changes and
+5892.6 3.78 when you push this to the server of this
+5895.06 3.96 when you push this to the GitHub
+5896.38 4.62 repository how will you come back
+5899.02 4.139 because you have updated your main see
+5901.0 3.78 one thing you can do you can uh you can
+5903.159 3.301 go back with the comments you can you
+5904.78 3.78 know we can actually time travel between
+5906.46 3.96 the commits so you can go back to the
+5908.56 3.659 previous commit but again why to do all
+5910.42 3.42 those things what you can do is whatever
+5912.219 3.96 experimental feature which you are
+5913.84 4.08 working on or maybe your colleagues are
+5916.179 3.54 working on so you can work on a
+5917.92 4.44 different branch now this will not
+5919.719 3.901 affect your main branch okay example
+5922.36 3.42 something like this you can just click
+5923.62 4.019 here and you can have an option here of
+5925.78 6.419 creating a new Branch you can simply
+5927.639 6.121 type let's say a feature one now this is
+5932.199 4.141 a new branch which I'm creating here
+5933.76 4.86 okay so you can do it from here on the
+5936.34 4.92 GitHub or which is the best way we can
+5938.62 4.68 do it from the command line right so
+5941.26 3.0 let's go back here and let me create a
+5943.3 2.46 brand so what I will do is whatever
+5944.26 4.5 changes I want to make I will not do
+5945.76 4.919 that in the main branch I will do that
+5948.76 4.02 on a separate Branch now first of all we
+5950.679 3.241 have to create a branch so how do you
+5952.78 3.54 create a branch it's very simple you
+5953.92 4.62 simply say get uh there are two options
+5956.32 5.28 basically for branching one is checkout
+5958.54 5.82 now this is the older one and most of
+5961.6 4.98 them are familiar and used to check out
+5964.36 4.68 the new feature or new the the new
+5966.58 6.42 command which we got is switch I think
+5969.04 6.06 this came in 2.23 a version so
+5973.0 3.719 it both are okay if you want to use
+5975.1 4.44 checkout if you want to switch that's
+5976.719 6.121 your choice now for me I feel switch
+5979.54 4.98 looks much better then check out because
+5982.84 3.72 sometimes you get confused with all
+5984.52 3.719 these words right when do we use pull
+5986.56 4.26 when do we use fetch when do we use
+5988.239 3.9 checkout so switch actually makes sense
+5990.82 3.54 when you want to switch between two
+5992.139 4.02 different branches right so but then
+5994.36 3.6 let's go with the older one which a lot
+5996.159 4.56 of people are familiar with so you can
+5997.96 4.679 simply say check out and you can mention
+6000.719 4.561 the branch name so the branch name is
+6002.639 4.621 feature one now this branch is actually
+6005.28 4.439 not created okay so we don't have this
+6007.26 3.959 Branch yet and if you type this command
+6009.719 4.44 and if you say enter you can say it will
+6011.219 5.281 say the feature one did not match any
+6014.159 5.52 files known to git so basically we don't
+6016.5 5.46 have a particular Branch name feature
+6019.679 4.261 one so we need to create one so for the
+6021.96 3.84 first time you have to create a branch
+6023.94 3.96 right once the branch is created you can
+6025.8 3.72 switch using with using git checkout
+6027.9 3.42 feature one so what I will do is I will
+6029.52 4.26 just type this command once again get
+6031.32 4.26 checkout now since we we are doing this
+6033.78 4.56 for the first time if you want to create
+6035.58 4.38 a branch you have to say hyphen b or you
+6038.34 4.26 can also say hyphen offer Branch both
+6039.96 5.759 works and the moment you do that it will
+6042.6 6.0 create a new Branch okay so now the
+6045.719 5.641 branch name is feature a feature one
+6048.6 4.8 and it also says you know switched to a
+6051.36 4.08 new Branch feature one so basically now
+6053.4 3.6 you have two branches you've got a main
+6055.44 3.239 branch and you've got a feature one
+6057.0 3.54 branch how do you know how many branches
+6058.679 4.381 you have so what you can do is you can
+6060.54 4.08 say git branch and you can see now we
+6063.06 3.54 have two Branch we have feature one
+6064.62 3.66 branch and we have a main branch
+6066.6 4.079 now the question is
+6068.28 4.56 which branch is active and that's where
+6070.679 4.441 you will see this star okay so star
+6072.84 4.859 means you are I mean this is basically a
+6075.12 5.039 pointer which means currently you are on
+6077.699 4.561 feature one one feature one branch and
+6080.159 4.621 you can see it's also in green color
+6082.26 4.32 now whatever changes you make will be
+6084.78 4.8 happening in feature one let me show you
+6086.58 4.68 let's say I will do some changes here
+6089.58 3.659 okay so I'm adding new feature because
+6091.26 3.78 this experimental Branch right so I will
+6093.239 4.861 say create
+6095.04 5.159 an avatar for user okay I will say save
+6098.1 4.619 and imagine this is a lending code I'm
+6100.199 5.04 just typing one line but uh yeah it can
+6102.719 4.141 tell in the code so once I do that what
+6105.239 4.38 I can do is of course I can say git
+6106.86 5.46 status and you can say in git status it
+6109.619 4.141 says on Branch feature okay it's not
+6112.32 4.799 saved
+6113.76 5.399 okay my bad I was expecting some on
+6117.119 4.08 stage and then it was saying something
+6119.159 4.261 okay now it is you can see I failed to
+6121.199 3.361 save it and now I have saved it so it
+6123.42 3.06 says modified
+6124.56 3.9 now once it is modified you have to say
+6126.48 5.159 add and you have to mention the file
+6128.46 4.5 name and then you have to say get you
+6131.639 4.201 have to commit this right so you have to
+6132.96 4.5 say git commit hyphen M and you can send
+6135.84 4.98 the message you can say
+6137.46 7.14 uh experimenting with
+6140.82 5.28 user of the r okay so basically we are
+6144.6 3.18 doing experiment with the user author
+6146.1 3.78 that's what I'm saying here and I will
+6147.78 3.899 say enter now this is committed okay now
+6149.88 3.6 question arise in which branch it is
+6151.679 5.101 committed it is committed in the feature
+6153.48 4.44 one branch okay main branch has no idea
+6156.78 3.839 what you're doing with feature one
+6157.92 4.62 branch so you can imagine this is your
+6160.619 4.02 main so this was your last comment right
+6162.54 4.5 before doing the branching this was your
+6164.639 5.341 last comment and may may knows about
+6167.04 5.28 this commit now what we did is we have
+6169.98 5.46 updated some feature in a feature Branch
+6172.32 5.22 main has no idea that's a new commit and
+6175.44 3.84 only feature knows it feature one branch
+6177.54 4.86 knows it okay so this looks cool right
+6179.28 5.1 now if I say git log so you can see it
+6182.4 3.839 will give you all the comments this is a
+6184.38 4.56 recent one you can see this is a recent
+6186.239 4.021 one it says experimenting with user I'll
+6188.94 3.36 just try to remember this
+6190.26 5.22 now what I will do is I will just go
+6192.3 4.8 back to the main branch and look at the
+6195.48 3.96 code as well so this is my working area
+6197.1 5.7 right look at this code so the user
+6199.44 5.88 service has one more line here right but
+6202.8 4.68 if I move to Main Branch how do I switch
+6205.32 3.54 how do I switch between these two so you
+6207.48 4.679 can say git
+6208.86 4.56 Branch or the gate switch so either you
+6212.159 3.54 can use checkout or you can use switch
+6213.42 4.38 I'm using switch now you can also use
+6215.699 4.621 checkout that also works I'm switching
+6217.8 5.52 to main the moment I do that look at the
+6220.32 5.58 changes that line actually went it's
+6223.32 4.919 because main has no idea about that new
+6225.9 3.6 line but if I go back to feature once
+6228.239 3.841 again
+6229.5 4.38 you got the new line so this is a beauty
+6232.08 5.039 between when you work with different
+6233.88 5.1 branches right uh in fact if you have
+6237.119 4.201 more files in the feature one it will
+6238.98 4.02 also show those more files and when you
+6241.32 4.02 go back to main again it will come back
+6243.0 4.8 so that's how basically you create a
+6245.34 3.96 branch and you work on it of course you
+6247.8 4.2 can create multiple branches there is no
+6249.3 4.8 limit but what is the use of creating a
+6252.0 3.3 new Branch right of course if you can do
+6254.1 3.48 something you can do it on Main Branch
+6255.3 4.919 and if you are doing something new on
+6257.58 4.44 the feature one branch how will you get
+6260.219 3.781 that data in the main plans again that's
+6262.02 3.54 a question we still need to answer but
+6264.0 3.42 we'll do that in the upcoming video now
+6265.56 3.78 in this video let's try to create some
+6267.42 4.739 more branches so that we can also see
+6269.34 4.44 how do you delete a branch and also
+6272.159 4.801 what's a shortcut to switch between
+6273.78 5.16 branches so let's try this first one let
+6276.96 3.779 me create some more Branch here so I
+6278.94 3.9 will say get how do I create more
+6280.739 4.141 branches I can simply say switch of
+6282.84 3.96 course you can use checkout or you can
+6284.88 3.96 use switch that's your choice if you are
+6286.8 4.439 using a checkout you have to use hyphen
+6288.84 4.62 B option and if you're using switch you
+6291.239 4.681 have to use something called hyphen C
+6293.46 4.5 now you can say hyphen C or you can say
+6295.92 4.02 hyphen iPhone click create that's the
+6297.96 4.02 option and then you can mention the
+6299.94 4.08 branch name let's say I'm creating a
+6301.98 4.679 feature two Branch okay so I'm creating
+6304.02 4.5 one more Branch now so in total how many
+6306.659 4.261 Brands we have we got three branches how
+6308.52 4.5 to identify so either you can say git
+6310.92 4.68 Branch now this will give you the list
+6313.02 4.44 so there is one option another option is
+6315.6 4.5 hyphen iPhone all again both does the
+6317.46 5.1 same thing but the difference is in this
+6320.1 6.42 get Branch you will see the local
+6322.56 5.88 branches in git Branch all you will see
+6326.52 4.619 the local branches as well as the remote
+6328.44 4.32 branch and if you can observe in the
+6331.139 3.781 remote we only have one branch at this
+6332.76 4.62 point if you go back to your GitHub we
+6334.92 4.319 only got one branch okay we don't have
+6337.38 3.48 this feature Branch yet so we only got
+6339.239 3.661 one you have one branch
+6340.86 4.02 but you will see how do you push a
+6342.9 3.779 branch to the GitHub now at this point
+6344.88 3.42 we can see we have only three branches
+6346.679 4.281 so we can check those things with the
+6348.3 5.52 help of git Branch or if you want to see
+6350.96 5.8 the remote as well you can say git
+6353.82 5.819 blanch all now let's say again if I say
+6356.76 5.16 git Branch we are into feature two right
+6359.639 5.341 now what if you want to move back to the
+6361.92 4.56 last branch now since we say switch it
+6364.98 2.94 has created New Branch but let's say if
+6366.48 5.639 I want to go back to the previous Branch
+6367.92 6.0 I can simply say git switch hyphen the
+6372.119 3.54 moment you do that now you can say it is
+6373.92 5.04 switching back to feature one because we
+6375.659 6.181 came to feature 2 from feature one okay
+6378.96 4.5 so if you want to do that shortcut of
+6381.84 4.44 going back to the previous Branch you
+6383.46 3.719 can say hyphen that will be making it
+6386.28 2.76 easy
+6387.179 3.48 now once we have seen this let's also
+6389.04 4.5 talk about deleting the branch so you
+6390.659 5.52 can say get branch and you have to use
+6393.54 4.199 hyphen D so if you want to delete a
+6396.179 3.661 branch you have to say hyphen D or you
+6397.739 4.321 can say hyphen hyphen delete that's an
+6399.84 3.779 option and then mention the branch name
+6402.06 3.48 which is feature two let's I don't want
+6403.619 4.02 to work on feature two so you can simply
+6405.54 5.4 say feature two and then done so you can
+6407.639 4.921 see it has deleted the branch and now if
+6410.94 4.259 you check the branches you've got on it
+6412.56 4.74 too we got feature one and we got main
+6415.199 3.841 so now let's try to push the branch
+6417.3 4.26 which is there in the local repository
+6419.04 4.38 to the GitHub remote repository so you
+6421.56 4.02 can see we have a feature one branch but
+6423.42 4.08 if you go to GitHub you don't have it
+6425.58 3.9 there so even if I refresh
+6427.5 4.26 so you can see in total we got one
+6429.48 4.8 branch so let's create one so what I
+6431.76 4.919 will do is I will go back to my vs code
+6434.28 3.839 and this is where uh okay even before
+6436.679 3.54 pushing it I just want to make few
+6438.119 3.54 changes so that it will look good so
+6440.219 3.601 what I will do is first of all I have to
+6441.659 4.741 check which branch I'm into I'm into
+6443.82 5.52 feature one branch and in feature one
+6446.4 5.64 let me create one more file which is for
+6449.34 3.48 the admin so let's say this is admin
+6452.04 5.76 service
+6452.82 7.22 Dot txt and what admin can do is add and
+6457.8 5.939 remove users
+6460.04 6.52 change the rules okay something like
+6463.739 4.801 this okay so again I assume I'm just
+6466.56 3.119 writing one line of code but behind the
+6468.54 3.9 scene there are multiple lines of code
+6469.679 4.02 so that it will look good okay so now
+6472.44 2.94 what we're going to do is first of all
+6473.699 3.061 we are into feature branch and in
+6475.38 3.9 feature Branch if you say git status
+6476.76 4.859 there is one file which is untracked so
+6479.28 5.58 we need to basically add this file which
+6481.619 5.161 is the admin service now once you have
+6484.86 5.52 added it it's time to commit so I will
+6486.78 5.879 say adding admin service
+6490.38 5.46 okay so basically we have added one more
+6492.659 6.121 service now and if I say get status
+6495.84 4.799 everything looks good but if you see now
+6498.78 3.419 we are into main branch right so if I
+6500.639 4.141 see the branch so if we want to feature
+6502.199 4.5 one branch and now if I switch to the
+6504.78 4.02 main branch just look so the moment I
+6506.699 4.681 say enter see what will happen to the
+6508.8 4.02 files the moment I say enter you can see
+6511.38 4.319 there is one file which I have been
+6512.82 4.799 removed now because the main branch has
+6515.699 4.44 no idea about this file and that's why
+6517.619 4.741 you can see there is also cross here but
+6520.139 4.08 in main we only have two files the
+6522.36 4.62 moment I go back to the feature Branch
+6524.219 4.681 now feature one and if I say enter and
+6526.98 3.42 now you can see we got three files so
+6528.9 3.66 this is this is how basically you when
+6530.4 4.92 you work you can actually work on those
+6532.56 4.679 files okay cool but then I also want to
+6535.32 3.839 push this to the GitHub remote
+6537.239 5.221 repository right how do we do that it's
+6539.159 5.281 very simple now so you can say get push
+6542.46 4.5 origin because that's the original we
+6544.44 4.44 have and now we have to mention not main
+6546.96 4.5 because in the earlier case we used to
+6548.88 3.96 say main right but this time we are
+6551.46 4.259 pushing a different branch which is
+6552.84 5.22 feature one and when I say enter now it
+6555.719 4.801 is pushing this particular local
+6558.06 3.9 repository to the GitHub repository and
+6560.52 4.44 it's done you can see there's no problem
+6561.96 6.96 it says on my remote repository which is
+6564.96 6.06 github.com 112020 git course dot get it
+6568.92 5.16 has a new branch called feature let's
+6571.02 5.34 verify let's go back here and you can
+6574.08 3.72 see it still says one branch but you can
+6576.36 2.279 see there's a notification here feature
+6577.8 3.24 one
+6578.639 4.921 had a recent push less than a minute ago
+6581.04 3.96 okay let me refresh to see uh two
+6583.56 3.36 branches here and you can see now we
+6585.0 5.1 have two branches this is the main
+6586.92 4.86 branch but if you switch to the feature
+6590.1 4.74 one branch you can see you have three
+6591.78 4.68 files okay so this is the beauty of uh
+6594.84 3.12 using branches right so you can also see
+6596.46 3.48 that on the server okay that's how
+6597.96 4.32 basically you push the branch on the
+6599.94 3.84 GitHub repository so how exactly things
+6602.28 3.66 are working here so what happens when
+6603.78 4.98 you create a new branch is it really
+6605.94 5.04 copying the entire project and doing it
+6608.76 3.66 so let's try to understand that in the
+6610.98 3.6 next video where we understand how
+6612.42 3.9 branching basically works so let's
+6614.58 4.02 understand what happens when you create
+6616.32 4.08 a branch so let's say you have just done
+6618.6 3.66 the git initialization on the working
+6620.4 4.98 directory now at this point what happens
+6622.26 5.1 is you get a different area inside your
+6625.38 4.2 working directory which is called your
+6627.36 4.08 git right dot get folder now basically
+6629.58 3.36 whenever you do your comments of course
+6631.44 3.54 you have to do these commits in some
+6632.94 5.1 Branch right and by default when you say
+6634.98 4.56 get init it creates a master Branch so
+6638.04 3.36 let's say in our workplace we are
+6639.54 4.92 carrying a main branch right so default
+6641.4 5.339 for us is Main Branch right now every
+6644.46 3.48 time you basically do the commit so
+6646.739 3.121 let's say when you when you do the first
+6647.94 4.02 commit what git does is it creates
+6649.86 4.62 something called a snapshot so it will
+6651.96 4.62 take a snapshot of your files right and
+6654.48 3.54 then it will give it it's a commit
+6656.58 4.32 number that's your check sum basically
+6658.02 5.28 uh we have seen the exact code values
+6660.9 4.2 right so that's your checksum and then
+6663.3 3.419 there is one more thing called pointer
+6665.1 4.019 now how the pointer looks like let me
+6666.719 4.261 show you so if you say git log and when
+6669.119 3.301 you say enter remember this we have seen
+6670.98 4.02 this thing before there's something
+6672.42 5.16 called head so at this point it is
+6675.0 4.02 showing me a feature because we are into
+6677.58 2.94 feature Branch what I will do is let me
+6679.02 5.82 just switch to
+6680.52 6.96 also get switch Main and now if I do the
+6684.84 4.44 same command again you can see it says
+6687.48 3.6 head is towards main let's say we don't
+6689.28 3.959 have a feature Branch at this point we
+6691.08 4.26 only have main branch and then the
+6693.239 4.681 header so that's your main pointer so it
+6695.34 5.64 is pointing to the main branch right and
+6697.92 4.68 Main is basically pointing to your uh to
+6700.98 3.9 your commit now this is a recent commit
+6702.6 4.44 is this one right now let's say next
+6704.88 3.839 time you are doing one more commit in
+6707.04 3.48 the same branch of course so what it
+6708.719 4.02 will do is it will take a snapshot now
+6710.52 5.219 in this snapshot basically you will have
+6712.739 5.161 those files which have been changed okay
+6715.739 3.48 so it will not simply copy every file it
+6717.9 4.62 will copy those files which have been
+6719.219 4.741 changed now you have a previous commit
+6722.52 4.98 you have a recent commit with the new
+6723.96 7.02 changes and then it will also have the
+6727.5 5.159 parent commit why because if the files
+6730.98 3.42 which have not changed is there in the
+6732.659 3.721 previous commit right so basically it
+6734.4 4.08 will have a pointer as well
+6736.38 4.859 so we will see that later how the parent
+6738.48 5.159 look like so we it create a parent so it
+6741.239 4.44 also has a parent it has a checksum uh
+6743.639 3.721 and multiple things it also save data in
+6745.679 4.381 a tree format but just to keep it simple
+6747.36 5.46 let's say we have checksum and the
+6750.06 4.44 commit ID or the comment hash so the
+6752.82 3.24 main is pointing to the new commit the
+6754.5 2.94 hedges point to the new commit and now
+6756.06 2.579 we are doing one more commit so what
+6757.44 3.06 will happen is with the new commit you
+6758.639 4.08 will have a bin pointing to the new
+6760.5 4.38 commit and had a point to a new commit
+6762.719 4.081 ah yes at any given point if you want to
+6764.88 4.08 go back to the previous previous commit
+6766.8 5.16 what you simply do is you your pointer
+6768.96 4.38 will move from the latest Branch to the
+6771.96 3.06 previous comment whatever you mentioned
+6773.34 4.56 or let us commit to previous commit is
+6775.02 4.98 that simple right now what happens is at
+6777.9 3.299 this point when you create a branch what
+6780.0 3.96 is happening
+6781.199 4.861 now basically you have a main commit
+6783.96 4.98 right the main branch the moment you
+6786.06 4.559 create a new Branch both the main branch
+6788.94 3.84 and the new branch which is feature and
+6790.619 4.321 feature one in this case is pointing to
+6792.78 4.379 the same commit now let's say you
+6794.94 5.04 decided to upgrade your features in the
+6797.159 5.821 feature one branch at this point it will
+6799.98 6.06 create a new commit and your feature one
+6802.98 4.8 is pointing to the new commit right what
+6806.04 4.679 about the main many Stills with the old
+6807.78 4.62 commit right so that's how basically you
+6810.719 3.0 create two different branches and you
+6812.4 3.48 can work them you can work on them
+6813.719 4.201 individually if you want you can also
+6815.88 3.319 made you can also work on Main maybe you
+6817.92 4.699 want to do some more commits there
+6819.199 6.281 because maybe uh after the main commit
+6822.619 4.301 uh you got you found some bugs of course
+6825.48 3.3 you are working on feature Branch but
+6826.92 3.96 let's say you you found some bugs in the
+6828.78 3.66 main now of course you will not directly
+6830.88 3.48 work on feature one you will what you
+6832.44 4.56 will do is you will create a new commit
+6834.36 4.56 from the main so the main will be
+6837.0 3.54 pointing to the new commit now and the
+6838.92 3.299 feature is coming is pointing to the
+6840.54 3.42 other commit so that's how basically it
+6842.219 3.96 creates the branch now if you want to
+6843.96 4.02 visualize this uh of course you can do
+6846.179 3.781 git log it will give you all the logs
+6847.98 3.84 right but there is one more command you
+6849.96 4.44 can say get let me just clear the screen
+6851.82 5.1 so there's something called get law blog
+6854.4 3.96 and you can draw a graph here now to
+6856.92 2.64 this point we have not done the emerging
+6858.36 3.54 that's why it is only showing to the
+6859.56 4.02 main one so it says what are the commits
+6861.9 4.259 what was the message which you have done
+6863.58 4.079 uh so the comment and the message and
+6866.159 3.421 the commit and the message if you say
+6867.659 3.601 enter you will see more now if you want
+6869.58 4.32 more visual representation what you can
+6871.26 3.84 do is you can install one extension
+6873.9 5.52 which is called
+6875.1 6.9 git graph in vs code and okay it's it
+6879.42 4.259 failed to fetch okay so you can see
+6882.0 3.659 there is something called get graph here
+6883.679 4.56 this is the logo if you want to download
+6885.659 4.261 and when you say install so it will take
+6888.239 4.5 some time to install I think it's done
+6889.92 4.44 and if you want to use it you have to go
+6892.739 4.261 to this particular icon here which is
+6894.36 4.5 for the get or Source control and there
+6897.0 4.679 is an option here so if you can see this
+6898.86 4.74 is a button which have to click and now
+6901.679 4.5 you can actually visualize everything so
+6903.6 3.9 if you click on this this these are the
+6906.179 3.121 things which happen with this particular
+6907.5 4.139 commit and this is what I was talking
+6909.3 4.08 about the parent for this video comment
+6911.639 3.6 this is a parent right this was the
+6913.38 3.779 previous commit so if I want to show you
+6915.239 3.721 in the console as well
+6917.159 4.321 we are into feature right we should
+6918.96 4.02 focus on the mean not feature because in
+6921.48 2.759 this we are into main so I will just
+6922.98 3.12 click here
+6924.239 3.661 so yeah this is the commit right the
+6926.1 5.22 recent commit and that's what we have
+6927.9 6.06 here and for this commit the parent is
+6931.32 4.5 some is one commit before that so you
+6933.96 2.94 can see it says patent now of course for
+6935.82 2.46 one particular comment you can have
+6936.9 3.42 multiple patterns we'll see that later
+6938.28 3.6 but at this point you can see we have
+6940.32 3.48 only one and that's why to say there's a
+6941.88 3.42 plural form right which is balance and
+6943.8 4.08 that's how basically you can see the
+6945.3 5.399 things here so yeah explore this and
+6947.88 4.259 we'll try to understand this more so you
+6950.699 4.081 can see at this point we have created a
+6952.139 4.201 new branch which is a feature Branch now
+6954.78 3.12 everything else is happening on the new
+6956.34 4.14 Branch so yeah that's how Branch
+6957.9 5.279 basically works and now we also want to
+6960.48 5.219 understand how do you merge two branches
+6963.179 4.98 that will say in the next video so
+6965.699 5.161 basically now we have two branches right
+6968.159 4.881 so if you want to see them again what we
+6970.86 6.12 can do is I can just clear the screen
+6973.04 6.82 and I can say get branch and you can see
+6976.98 4.8 we have two branches right and now what
+6979.86 3.9 we want is we want to basically merge
+6981.78 4.56 these two branches we want to merge Main
+6983.76 4.5 and we feature one so of course we have
+6986.34 4.14 done the work on feature one it looks
+6988.26 5.52 good I just want to merge it to the main
+6990.48 4.739 branch how will I do it uh so the first
+6993.78 3.959 thing is first of all let's explore the
+6995.219 6.661 files I am into my main
+6997.739 5.94 ah right and if I go back to get so just
+7001.88 5.22 just check what are the difference we
+7003.679 6.721 have here so if I say git switch to
+7007.1 5.7 feature one and you can see uh there is
+7010.4 4.5 extra file here which is admin service
+7012.8 5.22 I just want to check if everything is
+7014.9 6.18 good it's clean I like I also want to
+7018.02 4.139 verify if do if we have admin service on
+7021.08 4.44 the GitHub
+7022.159 4.861 so if I go there if I refresh so yes we
+7025.52 3.36 also have admin service here so that
+7027.02 5.579 looks cool right so now what I will do
+7028.88 5.88 is I want to merge the data or the
+7032.599 3.12 features in feature Branch to the main
+7034.76 3.66 branch
+7035.719 5.341 how will I do it how do we merge so to
+7038.42 4.44 do that uh what we need to do is we need
+7041.06 3.599 to use a very simple command called
+7042.86 3.839 merge basically there are two ways of
+7044.659 4.02 doing it one is merge which we are doing
+7046.699 3.96 now and the second one is rebase we'll
+7048.679 4.92 see later what rebase is but at this
+7050.659 4.921 point let's focus on merge we are saying
+7053.599 4.261 git merge and then we just have to
+7055.58 4.139 mention the branch name but to do that
+7057.86 5.1 we have to make sure that we are in the
+7059.719 5.101 main branch so if you see if you check
+7062.96 3.779 which branch we are into behind the
+7064.82 3.359 feature Branch so we need to move so
+7066.739 4.5 we'll say switch
+7068.179 5.04 to the main branch and now we can do git
+7071.239 4.321 merge so we just have to say git merge
+7073.219 4.141 and the branch name which is feature one
+7075.56 6.0 and when you say enter
+7077.36 6.6 okay it worked the merge is complete
+7081.56 4.44 there is no problem sometimes you do get
+7083.96 3.42 problem we call them as merge conflicts
+7086.0 2.159 we'll try to create merge conflicts
+7087.38 3.12 later
+7088.159 4.621 and we'll also see how do we resolve it
+7090.5 4.26 but at this point there's no issue and
+7092.78 4.8 you can see we got git merge and it's
+7094.76 4.56 working how do I modify this if you go
+7097.58 3.96 back to your main branch of course we
+7099.32 4.14 are into main branch and in main branch
+7101.54 4.079 you can see we have admin service okay
+7103.46 5.58 that looks cool I just want to see if
+7105.619 5.401 git status and everything looks good
+7109.04 5.22 because the commits which happened in
+7111.02 5.88 feature one also came into the main okay
+7114.26 5.399 the way the way you can verify is by
+7116.9 5.46 doing a log and you can see we were
+7119.659 5.94 basically done this thing in the feature
+7122.36 6.779 but now it came into Main
+7125.599 5.64 and we can also verify that with the git
+7129.139 4.381 graph
+7131.239 3.96 and if you see here
+7133.52 3.84 that's why we have done the merging
+7135.199 4.02 right so now it came into Main Branch
+7137.36 4.44 from the feature Branch this is what it
+7139.219 6.541 says okay so merging is complete
+7141.8 6.06 now if you go back to your GitHub and if
+7145.76 4.5 you see here in feature when we have
+7147.86 3.6 three files but if you look at your main
+7150.26 4.2 branch
+7151.46 5.279 we only got two files because the update
+7154.46 3.779 is not happened on the server
+7156.739 3.48 okay there's one thing which I missed
+7158.239 3.9 normally whenever you do this merging
+7160.219 3.841 and pushing on the remote repository of
+7162.139 3.781 course you have to push right the first
+7164.06 3.599 thing you do is you pull your remote
+7165.92 4.08 repository we have not done that because
+7167.659 3.96 it was safe for me because I'm not doing
+7170.0 4.139 any we don't have any collaborators I'm
+7171.619 5.281 not working on Main separately but
+7174.139 5.761 that's a good idea always try to pull
+7176.9 4.739 first okay because when you say pull so
+7179.9 3.54 from the remote repository you will get
+7181.639 4.02 the updated code on your machine before
+7183.44 3.96 merging okay so how do you pull
+7185.659 3.181 basically if you want to do that it's
+7187.4 4.02 very simple let me just clear this
+7188.84 5.1 screen so you have to say get
+7191.42 4.14 pull the same way you do push so it is a
+7193.94 2.94 get pull origin and you have to mention
+7195.56 3.0 the branch which you want to pull which
+7196.88 3.18 is Main in this case right this is the
+7198.56 4.38 step which you we should have done
+7200.06 5.28 before merging okay but anyway we have
+7202.94 5.1 done the merge and now it's time for us
+7205.34 5.46 to push it to the remote remote
+7208.04 5.76 repository so it's a git push origin and
+7210.8 5.46 we have to push main let's do that
+7213.8 4.62 uh things are looking good there's no
+7216.26 5.1 problem and done you can see the pushing
+7218.42 5.819 is done let's go back here and when you
+7221.36 4.68 say refresh now in the main you can see
+7224.239 2.641 we have three three files so this is
+7226.04 3.42 updated
+7226.88 5.54 and we are good okay so that's how
+7229.46 2.96 basically you merge
