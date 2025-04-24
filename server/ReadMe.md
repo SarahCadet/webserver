@@ -11,12 +11,14 @@ To use my-histogram functionality, input dir=directory in the request header
     e.g. my-histogram.cgi?dir=./
 
 modules to install for youtube link processing python file:
+
     pip install youtube_transcript_api
     sudo apt-get install libcurl4-gnutls-dev
 
 Control + C to shutdown the webserver
 
 Cache is implemented with first-in-first-out logic
+    
     toggle using command-line args
     for cache: -c cachesize
 
